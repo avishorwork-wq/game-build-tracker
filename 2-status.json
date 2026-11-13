@@ -1,0 +1,19 @@
+{
+  "project": "Neon Swarm - research-driven game",
+  "updated": "2026-11-13T01:58:00+02:00",
+  "stage": "Phase 1 of 7: Research",
+  "current": "Reading addiction psychology, behavioral neuroscience and game-design research. Building the 100+ source ledger now.",
+  "sources_reviewed": 0,
+  "sources_target": 100,
+  "phases": [
+    {"name": "Research: 100+ scientific & industry sources", "status": "in_progress"},
+    {"name": "Evidence-to-mechanic design doc", "status": "pending"},
+    {"name": "Core gameplay build", "status": "pending"},
+    {"name": "Progression, rewards & meta systems", "status": "pending"},
+    {"name": "Polish, game feel & mobile controls", "status": "pending"},
+    {"name": "Publish playable v1 on GitHub Pages", "status": "pending"},
+    {"name": "Commercial & monetization analysis", "status": "pending"}
+  ],
+  "eta": "Playable v1 target: ~10:30 AM IST",
+  "links": {"game": "", "research": ""}
+}

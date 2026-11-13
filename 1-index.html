@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Swarm - Build Tracker</title>
+<style>
+  :root { --bg:#0b0f1a; --card:#131a2b; --edge:#24314f; --txt:#e8eefc; --dim:#8fa1c4; --acc:#39d0ff; --ok:#3ddc84; --warn:#ffb020; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: radial-gradient(1200px 600px at 70% -10%, #16223d 0%, var(--bg) 55%); color: var(--txt); min-height:100vh; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 28px 18px 60px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: .5px; }
+  h1 .neon { color: var(--acc); text-shadow: 0 0 18px rgba(57,208,255,.55); }
+  .sub { color: var(--dim); margin-bottom: 20px; }
+  .card { background: var(--card); border: 1px solid var(--edge); border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; }
+  .stage { font-size: 1.15rem; font-weight: 700; color: var(--acc); }
+  .current { margin-top: 8px; line-height: 1.5; }
+  .meta { color: var(--dim); font-size: .85rem; margin-top: 10px; }
+  .bar { height: 10px; background:#0d1424; border-radius: 6px; overflow: hidden; margin-top: 8px; }
+  .bar > div { height: 100%; background: linear-gradient(90deg, var(--acc), #7c5cff); width: 0%; transition: width .4s; }
+  .count { font-weight: 700; }
+  ul.phases { list-style: none; padding: 0; margin: 0; }
+  ul.phases li { padding: 10px 12px; border-radius: 10px; margin-bottom: 8px; background:#0d1424; display:flex; gap:10px; align-items:center; }
+  .badge { font-size:.75rem; font-weight:700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+  .done { background: rgba(61,220,132,.15); color: var(--ok); }
+  .in_progress { background: rgba(255,176,32,.15); color: var(--warn); }
+  .pending { background: rgba(143,161,196,.12); color: var(--dim); }
+  a { color: var(--acc); }
+  .links a { display:inline-block; margin-right: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="neon">NEON SWARM</span> Build Tracker</h1>
+  <div class="sub">A game designed from 100+ scientific sources on engagement, then built from scratch. Live progress below.</div>
+  <div class="card">
+    <div class="stage" id="stage">Loading...</div>
+    <div class="current" id="current"></div>
+    <div class="bar"><div id="barfill"></div></div>
+    <div class="meta"><span class="count" id="srccount"></span> &middot; <span id="eta"></span> &middot; Last update: <span id="upd"></span></div>
+  </div>
+  <div class="card">
+    <ul class="phases" id="phases"></ul>
+  </div>
+  <div class="card links" id="links"></div>
+</div>
+<script>
+fetch('status.json?ts=' + Date.now()).then(r => r.json()).then(s => {
+  document.getElementById('stage').textContent = s.stage;
+  document.getElementById('current').textContent = s.current;
+  document.getElementById('srccount').textContent = 'Sources reviewed: ' + s.sources_reviewed + ' / ' + s.sources_target + '+';
+  document.getElementById('eta').textContent = s.eta;
+  document.getElementById('upd').textContent = new Date(s.updated).toLocaleString();
+  document.getElementById('barfill').style.width = Math.min(100, 100 * s.sources_reviewed / s.sources_target) + '%';
+  const ul = document.getElementById('phases');
+  s.phases.forEach(p => {
+    const li = document.createElement('li');
+    const label = p.status === 'done' ? 'DONE' : p.status === 'in_progress' ? 'WORKING' : 'QUEUED';
+    li.innerHTML = '<span class="badge ' + p.status + '">' + label + '</span><span>' + p.name + '</span>';
+    ul.appendChild(li);
+  });
+  const lk = document.getElementById('links');
+  let html = '';
+  if (s.links.game) html += 'Play the game: <a href="' + s.links.game + '">' + s.links.game + '</a>';
+  if (s.links.research) html += 'Research ledger: <a href="' + s.links.research + '">RESEARCH.md</a>';
+  lk.innerHTML = html || '<span class="meta">Game and research links appear here as they go live.</span>';
+}).catch(e => { document.getElementById('stage').textContent = 'Status unavailable'; });
+</script>
+</body>
+</html>
