@@ -3,67 +3,96 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Neon Swarm - Build Tracker</title>
+<title>Game Research Tracker</title>
 <style>
-  :root { --bg:#0b0f1a; --card:#131a2b; --edge:#24314f; --txt:#e8eefc; --dim:#8fa1c4; --acc:#39d0ff; --ok:#3ddc84; --warn:#ffb020; }
+  :root { --bg:#0b0f1a; --card:#131a2b; --edge:#24314f; --txt:#e8eefc; --dim:#8fa1c4; --acc:#39d0ff; --ok:#3ddc84; --warn:#ffb020; --ind:#c89b5a; }
   * { box-sizing: border-box; }
   body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: radial-gradient(1200px 600px at 70% -10%, #16223d 0%, var(--bg) 55%); color: var(--txt); min-height:100vh; }
-  .wrap { max-width: 860px; margin: 0 auto; padding: 28px 18px 60px; }
-  h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: .5px; }
-  h1 .neon { color: var(--acc); text-shadow: 0 0 18px rgba(57,208,255,.55); }
-  .sub { color: var(--dim); margin-bottom: 20px; }
-  .card { background: var(--card); border: 1px solid var(--edge); border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; }
-  .stage { font-size: 1.15rem; font-weight: 700; color: var(--acc); }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 16px 80px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h1 .neon { color: var(--acc); text-shadow: 0 0 18px rgba(57,208,255,.5); }
+  .sub { color: var(--dim); margin-bottom: 18px; line-height: 1.45; }
+  .card { background: var(--card); border: 1px solid var(--edge); border-radius: 14px; padding: 16px 18px; margin-bottom: 16px; }
+  .stage { font-size: 1.1rem; font-weight: 700; color: var(--acc); }
   .current { margin-top: 8px; line-height: 1.5; }
   .meta { color: var(--dim); font-size: .85rem; margin-top: 10px; }
   .bar { height: 10px; background:#0d1424; border-radius: 6px; overflow: hidden; margin-top: 8px; }
-  .bar > div { height: 100%; background: linear-gradient(90deg, var(--acc), #7c5cff); width: 0%; transition: width .4s; }
+  .bar > div { height: 100%; background: linear-gradient(90deg, var(--acc), #7c5cff); transition: width .4s; }
   .count { font-weight: 700; }
-  ul.phases { list-style: none; padding: 0; margin: 0; }
-  ul.phases li { padding: 10px 12px; border-radius: 10px; margin-bottom: 8px; background:#0d1424; display:flex; gap:10px; align-items:center; }
-  .badge { font-size:.75rem; font-weight:700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
-  .done { background: rgba(61,220,132,.15); color: var(--ok); }
-  .in_progress { background: rgba(255,176,32,.15); color: var(--warn); }
-  .pending { background: rgba(143,161,196,.12); color: var(--dim); }
-  a { color: var(--acc); }
-  .links a { display:inline-block; margin-right: 16px; }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom: 12px; }
+  .filters button { background:#0d1424; color:var(--txt); border:1px solid var(--edge); border-radius:999px; padding:6px 13px; font-size:.83rem; cursor:pointer; }
+  .filters button.active { border-color: var(--acc); color: var(--acc); }
+  .art { padding: 12px 14px; border-radius: 10px; background:#0d1424; margin-bottom: 8px; line-height: 1.45; }
+  .art .num { color: var(--dim); font-size:.8rem; margin-right: 6px; }
+  .art a { color: var(--acc); text-decoration: none; }
+  .art a:hover { text-decoration: underline; }
+  .badge { display:inline-block; font-size:.68rem; font-weight:700; padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle; white-space: nowrap; }
+  .b-sci { background: rgba(61,220,132,.15); color: var(--ok); }
+  .b-rev { background: rgba(57,208,255,.14); color: var(--acc); }
+  .b-ind { background: rgba(200,155,90,.16); color: var(--ind); }
+  .b-jou { background: rgba(143,161,196,.15); color: var(--dim); }
+  .art .take { display:block; margin-top: 5px; color: #c6d2ea; font-size: .92rem; }
+  .legend { color: var(--dim); font-size: .8rem; margin-top: 6px; line-height: 1.6; }
+  h2 { font-size: 1.05rem; margin: 20px 0 10px; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1><span class="neon">NEON SWARM</span> Build Tracker</h1>
-  <div class="sub">A game designed from 100+ scientific sources on engagement, then built from scratch. Live progress below.</div>
+  <h1><span class="neon">Game Research</span> Tracker</h1>
+  <div class="sub">Every engaging-game research article read for this project, with a link and a takeaway. The game gets designed from this base once research is complete.</div>
   <div class="card">
     <div class="stage" id="stage">Loading...</div>
     <div class="current" id="current"></div>
     <div class="bar"><div id="barfill"></div></div>
-    <div class="meta"><span class="count" id="srccount"></span> &middot; <span id="eta"></span> &middot; Last update: <span id="upd"></span></div>
+    <div class="meta"><span class="count" id="srccount"></span> &middot; <span id="eta"></span> &middot; Updated: <span id="upd"></span></div>
+    <div class="meta" id="note"></div>
   </div>
-  <div class="card">
-    <ul class="phases" id="phases"></ul>
+  <h2>Article library <span id="artcount" class="meta"></span></h2>
+  <div class="filters" id="filters">
+    <button data-f="all" class="active">All</button>
+    <button data-f="sci">Peer-reviewed / established</button>
+    <button data-f="rev">Reviews &amp; academic</button>
+    <button data-f="ind">Industry</button>
+    <button data-f="jou">Journalism &amp; other</button>
   </div>
-  <div class="card links" id="links"></div>
+  <div class="legend">Labels: <b style="color:var(--ok)">green</b> = peer-reviewed/established science &middot; <b style="color:var(--acc)">blue</b> = reviews, academic &amp; official docs &middot; <b style="color:var(--ind)">gold</b> = industry analysis/data &middot; <b style="color:var(--dim)">grey</b> = journalism, commentary, tertiary.</div>
+  <div id="list"></div>
 </div>
 <script>
-fetch('status.json?ts=' + Date.now()).then(r => r.json()).then(s => {
+const cls = l => /peer|established|field|experiment|workshop|extended|theory/i.test(l) ? 'b-sci'
+  : /review|academic|official|instrument|measure|legal|expert|survey/i.test(l) ? 'b-rev'
+  : /industry|preprint/i.test(l) ? 'b-ind' : 'b-jou';
+const grp = l => ({'b-sci':'sci','b-rev':'rev','b-ind':'ind','b-jou':'jou'})[cls(l)];
+Promise.all([
+  fetch('status.json?ts='+Date.now()).then(r=>r.json()),
+  fetch('articles.json?ts='+Date.now()).then(r=>r.json())
+]).then(([s, arts]) => {
   document.getElementById('stage').textContent = s.stage;
   document.getElementById('current').textContent = s.current;
-  document.getElementById('srccount').textContent = 'Sources reviewed: ' + s.sources_reviewed + ' / ' + s.sources_target + '+';
+  document.getElementById('srccount').textContent = 'Articles read: ' + arts.length;
   document.getElementById('eta').textContent = s.eta;
+  document.getElementById('note').textContent = s.note;
   document.getElementById('upd').textContent = new Date(s.updated).toLocaleString();
-  document.getElementById('barfill').style.width = Math.min(100, 100 * s.sources_reviewed / s.sources_target) + '%';
-  const ul = document.getElementById('phases');
-  s.phases.forEach(p => {
-    const li = document.createElement('li');
-    const label = p.status === 'done' ? 'DONE' : p.status === 'in_progress' ? 'WORKING' : 'QUEUED';
-    li.innerHTML = '<span class="badge ' + p.status + '">' + label + '</span><span>' + p.name + '</span>';
-    ul.appendChild(li);
+  document.getElementById('barfill').style.width = Math.min(100, 100 * arts.length / s.sources_target) + '%';
+  document.getElementById('artcount').textContent = '(' + arts.length + ')';
+  const list = document.getElementById('list');
+  arts.forEach(a => {
+    const d = document.createElement('div');
+    d.className = 'art'; d.dataset.g = grp(a.label);
+    d.innerHTML = '<span class="num">#' + a.n + '</span><a href="' + a.url + '" target="_blank" rel="noopener">' +
+      a.citation.replace(/</g,'&lt;') + '</a><span class="badge ' + cls(a.label) + '">' + a.label + '</span>' +
+      '<span class="take">' + a.takeaway.replace(/</g,'&lt;') + '</span>';
+    list.appendChild(d);
   });
-  const lk = document.getElementById('links');
-  let html = '';
-  if (s.links.game) html += 'Play the game: <a href="' + s.links.game + '">' + s.links.game + '</a>';
-  if (s.links.research) html += 'Research ledger: <a href="' + s.links.research + '">RESEARCH.md</a>';
-  lk.innerHTML = html || '<span class="meta">Game and research links appear here as they go live.</span>';
+  document.getElementById('filters').addEventListener('click', e => {
+    if (e.target.tagName !== 'BUTTON') return;
+    document.querySelectorAll('#filters button').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    const f = e.target.dataset.f;
+    document.querySelectorAll('.art').forEach(el => {
+      el.style.display = (f === 'all' || el.dataset.g === f) ? '' : 'none';
+    });
+  });
 }).catch(e => { document.getElementById('stage').textContent = 'Status unavailable'; });
 </script>
 </body>
