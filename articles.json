@@ -705,5 +705,243 @@
   "url": "https://legitsauce.com/blog/geometry-survivor-design-notes/",
   "label": "Industry",
   "takeaway": "VS lineage + Brotato drafting + neon minimal shapes for phone performance (direct precedent for this build)."
+ },
+ {
+  "n": 102,
+  "citation": "Terron-Lopez & Castilla-Cebrian (2025) \"Color Psychology in Video Games: A Systematic Literature Review\" Visual Review",
+  "url": "https://visualreview.net/revVISUAL/article/view/5727",
+  "label": "Systematic Review",
+  "takeaway": "Reviews how color in game interfaces has been studied: color communicates state to players and supports mechanics and narrative; field lacks standardized evaluation criteria. Design use: treat color as an information channel, not decoration."
+ },
+ {
+  "n": 103,
+  "citation": "Geslin, Jegou & Beaudoin (2016) \"How Color Properties Can Be Used to Elicit Emotions in Video Games\" Int. J. of Computer Games Technology",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1155/2016/5182768",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Manipulated hue/saturation/brightness of in-game color sets and measured emotional response; color properties shift valence/arousal of perceived scenes. Design use: palette is a mood dial you can tune deliberately."
+ },
+ {
+  "n": 104,
+  "citation": "Joosten, van Lankveld & Spronck (2010) \"Colors and Emotions in Videogames\" GAMEON",
+  "url": "https://www.spronck.net/pubs/GAMEON2010Joosten.pdf",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "In-game experiment: red evoked high-arousal negative emotion, yellow evoked positive emotion; inexperienced players reacted to color more strongly than experienced players. Design use: color coding of danger vs reward works, strongest for new players."
+ },
+ {
+  "n": 105,
+  "citation": "Overbaked Studio (2026) \"Color Psychology in Game Design: How Palettes Shape Emotion\"",
+  "url": "https://overbaked.studio/blog/color-psychology-in-game-design/",
+  "label": "Industry",
+  "takeaway": "Practitioner synthesis: saturation and brightness do most of the emotional work - bright saturated palettes raise arousal/pleasure, dark desaturated ones lower both. Design use: juice moments can literally brighten the palette."
+ },
+ {
+  "n": 106,
+  "citation": "Unity / PlaySide Studios (2025) \"How PlaySide Studios Built KILL KNIGHT's Visual Identity\"",
+  "url": "https://unity.com/blog/how-playside-studios-built-kill-knight-visual-identity",
+  "label": "Industry",
+  "takeaway": "Case study: a distinctive, disciplined visual identity (retro-futuristic palette, strong readability) made an arena shooter stand out in a crowded genre. Design use: one bold restricted palette beats visual noise."
+ },
+ {
+  "n": 107,
+  "citation": "Hoffman (2010) \"Color Enhancement for Videogames\" SIGGRAPH course, Activision",
+  "url": "https://renderwonk.com/publications/s2010-color-course/hoffman/s2010_color_enhancement_and_rendering_hoffman_b.pdf",
+  "label": "Industry / Technical",
+  "takeaway": "Color grading and LUTs let teams author mood and direct attention to important elements with film-like control, cheaply at runtime. Design use: grading is a low-cost mood system usable in shaders."
+ },
+ {
+  "n": 108,
+  "citation": "Valve - Francke & Lundeen (2008) \"How Valve Connects Art Direction to Gameplay\" GameFest",
+  "url": "https://steamcdn-a.akamaihd.net/apps/valve/2008/GameFest08_ArtInSource.pdf",
+  "label": "Industry",
+  "takeaway": "TF2/L4D2 lessons: distinctive silhouettes, team color coding, highest contrast on the most gameplay-relevant elements - art direction serves readability first. Design use: enemies, pickups and threats each get their own color/silhouette language."
+ },
+ {
+  "n": 109,
+  "citation": "Plut & Pasquier (2019) \"Music Matters: An Empirical Study on the Effects of Adaptive Music on Experienced and Perceived Player Affect\" IEEE COG",
+  "url": "https://ieee-cog.org/2019/papers/paper_106.pdf",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Adaptive music that follows game tension significantly increased players' reported tension and was recognized and valued by players. Design use: music should track intensity, not loop flatly."
+ },
+ {
+  "n": 110,
+  "citation": "Dixon, Harrigan, Santesso, Graydon, Fugelsang & Collins (2013) \"The Impact of Sound in Modern Multiline Video Slot Machine Play\" J. of Gambling Studies",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4225056/",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "96 gamblers: pairing wins with sound raised physiological arousal and made players significantly overestimate how often they won. Design use: celebratory sound amplifies reward perception - powerful and a responsible-design flag."
+ },
+ {
+  "n": 111,
+  "citation": "Collins, Dixon et al. (2013) \"The Impact of Sound on Psychophysical Response to Slot Machine Play\" GREO report, U. Waterloo",
+  "url": "https://www.greo.ca/Modules/EvidenceCentre/files/Collins%20et%20al(2013)The_impact_of_sound_on_psychophysical_response.pdf",
+  "label": "Research Report",
+  "takeaway": "Sound-off play rated less enjoyable and less exciting; sound measurably changes skin conductance and heart rate during play. Design use: audio feedback is not optional polish, it changes felt experience."
+ },
+ {
+  "n": 112,
+  "citation": "Haehn, Schlittmeier & Boeffel (2024) \"Exploring the Impact of Ambient and Character Sounds on Player Experience in Video Games\" Applied Sciences 14(2)",
+  "url": "https://www.mdpi.com/2076-3417/14/2/583",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Two League of Legends experiments: character sounds significantly improved immersion, avatar identification and fun; ambient and character sounds interacted on fun. Design use: give the player character its own sound identity."
+ },
+ {
+  "n": 113,
+  "citation": "Vaisanen (2017) \"Sound as Feedback on Motion in Active Games\" Linkoeping University thesis",
+  "url": "https://www.diva-portal.org/smash/get/diva2:1119200/FULLTEXT01.pdf",
+  "label": "Thesis Experiment",
+  "takeaway": "Preference experiment on motion-coupled sound in active games: players prefer immediate, clearly mapped audio feedback to movement. Design use: every player action deserves an instant sound response."
+ },
+ {
+  "n": 114,
+  "citation": "Parker & Heerema (2008) \"Audio Interaction in Computer Mediated Games\" Int. J. of Computer Games Technology",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1155/2008/178923",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Audio as an interaction channel: sound can carry gameplay-critical information and deepen involvement beyond visuals. Design use: telegraph threats and rewards sonically, not only visually."
+ },
+ {
+  "n": 115,
+  "citation": "Gil Herrera (2024) \"VFX as Game Design Tools: The Ludology of VFX in God of War: Ragnarok and Halo Infinite\" Game Developer",
+  "url": "https://www.gamedeveloper.com/design/vfx-as-game-design-tools-the-ludology-of-vfx-in-god-of-war-ragnarok-and-halo-infinite",
+  "label": "Industry",
+  "takeaway": "Authored-with-intent VFX (charge-up glows, impact flashes, telegraphs) communicate mechanics and state, becoming part of the design itself. Design use: VFX should tell the player what is happening, not just look nice."
+ },
+ {
+  "n": 116,
+  "citation": "Zhou & Forbes (2022) \"Data Feel: Exploring Visual Effects in Video Games to Support Sensemaking Tasks\" arXiv",
+  "url": "https://ar5iv.labs.arxiv.org/html/2210.03800",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Catalogs game VFX techniques (trails, pulses, highlights) and shows they guide attention and support sensemaking. Design use: VFX double as an attention-guidance system."
+ },
+ {
+  "n": 117,
+  "citation": "Handmade Web Games (2025) \"Chapter 10: Game Feel and Juice\"",
+  "url": "https://handmadeweb.games/guides/handmade-web-games/techniques-for-game-feel-and-juice",
+  "label": "Industry / Tutorial",
+  "takeaway": "Juice = layered feedback (particles, screen shake, squash-and-stretch, bullet time) that makes a game feel alive; warns against overdoing it. Design use: pick a few juice techniques and apply them to every core action."
+ },
+ {
+  "n": 118,
+  "citation": "Wayline \"The Juice Toolbox - Game Feel & Juice\"",
+  "url": "https://www.wayline.io/learn/game-feel/1",
+  "label": "Industry / Tutorial",
+  "takeaway": "Screen shake, hit-stop (freeze frames), particles and tweening do most of the work; keep doses small - big shake nauseates, juice is seasoning not the meal. Design use: a 100ms hit-stop on kill is the cheapest big-feel win."
+ },
+ {
+  "n": 119,
+  "citation": "Falcon (2026) \"Juice: The Feel Layer in Game Design\"",
+  "url": "https://falcon.so/resources/game-design/juice",
+  "label": "Industry",
+  "takeaway": "Juice is exaggerated non-essential feedback that makes actions feel responsive without changing rules; unjuiced games feel dead even with identical mechanics. Design use: budget feedback work as core, not leftover polish."
+ },
+ {
+  "n": 120,
+  "citation": "Cooper (2019) \"The 12 Principles of Animation in Video Games\" Game Developer (Game Anim excerpt)",
+  "url": "https://www.gamedeveloper.com/production/the-12-principles-of-animation-in-video-games",
+  "label": "Industry / Craft",
+  "takeaway": "Disney's 12 animation principles (anticipation, squash-and-stretch, follow-through) applied to games like Cuphead; readability of action depends on them. Design use: anticipation frames make enemy attacks fair and readable."
+ },
+ {
+  "n": 121,
+  "citation": "Ahn (2026) \"The 12 Principles of Animation, Reframed for Games\" anim.works",
+  "url": "https://anim.works/the-12-principles-of-animation-reframed-for-games/",
+  "label": "Industry / Craft",
+  "takeaway": "Re-frames each classical principle for interactive, interruptible game animation (states can change mid-motion). Design use: animations must stay responsive - cancel cleanly, never lock the player out."
+ },
+ {
+  "n": 122,
+  "citation": "Tian (2020) \"Integrating Visual Effects into 2D Platformer Games to Enhance Play Experiences\" Northeastern University thesis",
+  "url": "https://repository.library.northeastern.edu/files/neu:bz60mb56x/fulltext.pdf",
+  "label": "Thesis Experiment",
+  "takeaway": "Experimental 2D platformer study: added VFX (trails, impact flashes, ambient particles) measurably enhanced reported play experience. Design use: even simple 2D games gain engagement from layered VFX."
+ },
+ {
+  "n": 123,
+  "citation": "Flayelle, Brevers, King, Maurage, Perales & Billieux (2023) \"A Taxonomy of Technology Design Features that Promote Potentially Addictive Online Behaviours\" Nature Reviews Psychology",
+  "url": "https://www.nature.com/articles/s44159-023-00153-4",
+  "label": "Peer-reviewed Review",
+  "takeaway": "Taxonomy of design features that can undermine user control (variable rewards, endless feeds, social pressures, scarcity). This is the map for where the ethical line sits: engagement mechanics that remove stopping cues are the risky ones."
+ },
+ {
+  "n": 124,
+  "citation": "King, Delfabbro & Griffiths (2010) \"The Role of Structural Characteristics in Problem Video Game Playing: A Review\" Cyberpsychology",
+  "url": "https://cyberpsychology.eu/article/view/4229",
+  "label": "Peer-reviewed Review",
+  "takeaway": "Classic review of structural features (reinforcement schedules, near-misses, social and avatar features) linked to problem play. Design use: the same features that engage can harm at extremes; intensity is the variable."
+ },
+ {
+  "n": 125,
+  "citation": "Saini & Hodgins (2023) \"Investigating Gaming Structural Features Associated with Gaming Disorder\" J. of Behavioral Addictions",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10316166/",
+  "label": "Scoping Review",
+  "takeaway": "Revised taxonomy: social features, narrative/identity and reward/punishment features dominate the problem-play literature; manipulation/control and presentation features less studied. Design use: reward cadence and social obligation need the most ethical care."
+ },
+ {
+  "n": 126,
+  "citation": "Flayelle, Andronicos, King & Billieux (2025) \"Understanding the Interplay Between Video Game Design Features and Dysregulated Gaming Patterns\" Addictive Behaviors Reports",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12033933/",
+  "label": "Peer-reviewed Review",
+  "takeaway": "Argues design features only produce dysregulated play in interaction with player vulnerabilities - calls for interactionist research. Design use: a feature is not inherently predatory; context and audience matter."
+ },
+ {
+  "n": 127,
+  "citation": "Antons, Liebherr, Brand & Brandtner (2023) \"From Game Engagement to Craving Responses\" Addictive Behaviors Reports",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10749870/",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Flow and immersion relate to craving, mediated by gratification and compensation experiences; at-risk gamers show the compensation path. Design use: build gratification (earned satisfaction), not compensation (escape)."
+ },
+ {
+  "n": 128,
+  "citation": "Park & Yap (2024) \"A Dualistic Approach to Harmonious and Obsessive Passion: The Impact of Game Mechanics on Mobile Gaming Engagement\" Electronic Commerce Research",
+  "url": "https://link.springer.com/article/10.1007/s10660-024-09886-7",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Netnography + dual theory of passion: some mechanics feed harmonious passion (free, integrated play), others obsessive passion (compelled play). Design use: aim mechanics at harmonious passion - mastery and autonomy over obligation."
+ },
+ {
+  "n": 129,
+  "citation": "Hopson / Bungie (2012) \"There is No Skinner Box, Says Bungie User Research Lead\" Game Developer",
+  "url": "https://www.gamedeveloper.com/design/there-is-no-skinner-box-says-bungie-user-research-lead",
+  "label": "Industry",
+  "takeaway": "Bungie's research lead revisits his 2001 'Behavioral Game Design': reward schedules are one tool among many, not a mind-control box; fun and meaning still rule. Design use: use schedules lightly; they cannot rescue a boring game."
+ },
+ {
+  "n": 130,
+  "citation": "Attard (2014) \"Liberty Bell, Liberty Bell... Cherry: Gaming, Gambling and the Near-Miss\" Game Developer",
+  "url": "https://www.gamedeveloper.com/design/liberty-bell-liberty-bell-cherry-gaming-gambling-and-the-near-miss",
+  "label": "Industry",
+  "takeaway": "How the near-miss (almost-winning) works as operant conditioning in slots and how game designers adapt it; flags misuse. Design use: showing how close a loss was can motivate, but overuse mimics gambling - ethical line."
+ },
+ {
+  "n": 131,
+  "citation": "Kim (2014) \"The Compulsion Loop in Game Design Explained\" gamemakers.com",
+  "url": "https://www.gamemakers.com/p/the-compulsion-loop-explained",
+  "label": "Industry",
+  "takeaway": "Traces the compulsion loop (action -> reward -> new goal) from Hopson 2001 through Zynga-era social games. Design use: a tight core loop is the engine of 'one more go'; keep the loop fair and completable."
+ },
+ {
+  "n": 132,
+  "citation": "Huang (2014) \"Moral Game Design\" Game Developer",
+  "url": "https://www.gamedeveloper.com/design/moral-game-design",
+  "label": "Industry / Ethics",
+  "takeaway": "Practitioner essay: distinguish games that add to players' lives from those that only extract time; designers own that choice. Design use: build the kind of engagement you'd thank a game for."
+ },
+ {
+  "n": 133,
+  "citation": "Billieux, Van der Linden, Achab, Khazaal et al. (2013) \"Why Do You Play World of Warcraft?\" Computers in Human Behavior",
+  "url": "https://www.uclep.be/pdf/Billieux_CHB_2013.pdf",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Self-reported motivations (achievement, social, immersion) map onto in-game behaviors; motives predict patterns of involvement. Design use: serve multiple motives so no single compulsive hook carries the game."
+ },
+ {
+  "n": 134,
+  "citation": "The Guardian (2014) \"My Favourite Waste of Time: Why Candy Crush and Angry Birds Are So Compulsive\"",
+  "url": "https://www.theguardian.com/technology/2014/may/21/candy-crush-angry-birds-psychology-compulsive-casual-games-mobile-flappy-birds",
+  "label": "Journalism",
+  "takeaway": "Reported look at casual-game compulsiveness: simple loops, variable rewards, near-misses and low friction keep players returning. Design use: the strongest casual hooks are simple, fast and endlessly restartable."
+ },
+ {
+  "n": 135,
+  "citation": "Birk, van der Hof & van Rooij (2024) \"Behavioral Design in Video Games\" ACM",
+  "url": "https://dl.acm.org/doi/pdf/10.1145/3672088",
+  "label": "Peer-reviewed Framework",
+  "takeaway": "Proposes adding an ethical-responsible motive to behavioral game design taxonomies, with a visualized taxonomy covering dark patterns and wellbeing. Design use: the closest thing to a published checklist for where engaging becomes exploitative."
  }
 ]
