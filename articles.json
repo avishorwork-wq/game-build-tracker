@@ -1262,5 +1262,149 @@
   "label": "Industry / Opinion",
   "takeaway": "Argues limited-time FOMO events backfire: they exhaust players and punish anyone who was away. Design use: fair design lets players miss a day without losing progress.",
   "topic": "gameplay"
+ },
+ {
+  "n": 159,
+  "citation": "Bartle \"Virtual Worlds: Why People Play\" (U. Essex)",
+  "url": "https://mud.co.uk/richard/VWWPP.pdf",
+  "label": "Theory Paper",
+  "takeaway": "'Fun' is too vague to design with; Bartle breaks play motivations into distinct types (achievement, exploration, socializing, competition). Design use: know which motivations your game serves.",
+  "topic": "psychology"
+ },
+ {
+  "n": 160,
+  "citation": "Koster \"Theory of Fun: 10 Years Later\"",
+  "url": "https://www.raphkoster.com/wp-content/uploads/2026/07/Theory-of-Fun-10-Years-Later.pdf",
+  "label": "Theory Retrospective",
+  "takeaway": "Fun is another word for learning: games engage while they teach patterns, and bore once mastered. Design use: keep feeding learnable depth or players churn.",
+  "topic": "psychology"
+ },
+ {
+  "n": 161,
+  "citation": "Bjork \"Not a Casual Review: Reading Jesper Juul's A Casual Revolution\" Game Studies",
+  "url": "https://gamestudies.org/1102/articles/bjork",
+  "label": "Academic Review",
+  "takeaway": "Reviews Juul's casual-game design traits: short sessions, forgiving difficulty, positive framing. Design use: accessibility and session-fit are design choices, not dumbing down.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 162,
+  "citation": "Honorof (2021) \"Hades Exclusive: Supergiant Explains Why We Love (and Hate) Roguelikes\" Tom's Guide",
+  "url": "https://www.tomsguide.com/features/hades-exclusive-interview-supergiant",
+  "label": "Industry Interview",
+  "takeaway": "Supergiant on why Hades feels compulsively playable: death as story engine, constant small progression, runs that always feel different. Design use: failure should still deliver something.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 163,
+  "citation": "McWhertor (2024) \"Hades Perfectly Matched Its Family Story to the Video Game Medium\" Polygon",
+  "url": "https://www.polygon.com/analysis/454550/hades-best-video-game-story/",
+  "label": "Journalism / Criticism",
+  "takeaway": "Hades weaves narrative into the run loop itself - the story is told through repeated attempts, not despite them. Design use: align story delivery with the core loop.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 164,
+  "citation": "Nevo & Buergi (2025) \"Idle Yet Engaged: Exploring Need Satisfaction in Challenge-Free Games\" SSRN",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5877238",
+  "label": "Working Paper",
+  "takeaway": "Studies how challenge-free (idle) games still satisfy psychological needs. Design use: engagement does not require difficulty; progression and autonomy can carry it.",
+  "topic": "psychology"
+ },
+ {
+  "n": 165,
+  "citation": "Golman & Loewenstein (2016) \"An Information-Gap Theory of Feelings About Uncertainty\"",
+  "url": "https://www.cmu.edu/dietrich/sds/docs/golman/Information-Gap%20Theory%202016.pdf",
+  "label": "Theory Paper",
+  "takeaway": "Feelings about uncertainty drive information seeking/avoidance and risk exposure preferences. Design use: visible unknowns (hidden unlocks, mystery slots) create pull.",
+  "topic": "psychology"
+ },
+ {
+  "n": 166,
+  "citation": "Dixon & Harrigan (2010) \"Disguising Losses as Wins in Multi-line Video Slot Machines\" JOV/ARVO",
+  "url": "https://jov.arvojournals.org/article.aspx?articleid=2138340",
+  "label": "Peer-reviewed Study",
+  "takeaway": "Losses disguised as wins (LDWs): celebratory feedback on net losses changes how outcomes are perceived. Design use: the canonical dark-pattern case - celebratory feedback must match the real outcome.",
+  "topic": "psychology"
+ },
+ {
+  "n": 167,
+  "citation": "Scarfe, Stange & Dixon (2020) \"Negative Sounds Can Reveal the True Nature of Losses Disguised as Wins\" J. of Gambling Studies",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8144080/",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Negative sound on LDWs reveals them as losses to players, measurably changing behavior. Design use: honest audio feedback - sound can tell the truth or hide it; choose truth.",
+  "topic": "sound"
+ },
+ {
+  "n": 168,
+  "citation": "(2020) \"Effect of Timer, Top Score and Leaderboard on Performance and Motivation in a Human Computing Game\" FDG",
+  "url": "https://dl.acm.org/doi/10.1145/3402942.3403000",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Controlled test of three common motivators (timer, top score, leaderboard) on performance and motivation. Design use: each motivator has distinct, measurable effects - pick deliberately.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 169,
+  "citation": "Deterding, Andersen, Kiverstein & Miller (2022) \"Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success\" Frontiers in Psychology",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9363017/",
+  "label": "Peer-reviewed Theory",
+  "takeaway": "Enjoyment of uncertain success explained via predictive processing: the brain enjoys resolving well-calibrated uncertainty (Dark Souls-style). Design use: wins should feel earned-but-risky, never guaranteed.",
+  "topic": "neuroscience"
+ },
+ {
+  "n": 170,
+  "citation": "Simply Psychology \"Completionism: When Finishing a Game Stops Being Optional\"",
+  "url": "https://www.simplypsychology.com/articles/gaming-completionism-anxiety",
+  "label": "Psychology Journalism",
+  "takeaway": "Completionist checklists turn play into obligation for some players, with anxiety at the extreme. Design use: checklists motivate but must stay optional and pressure-free.",
+  "topic": "psychology"
+ },
+ {
+  "n": 171,
+  "citation": "(2025) \"Why It's So Hard to Walk Away From a Video Game\" Psychology Today",
+  "url": "https://www.psychologytoday.com/us/blog/video-game-health/202211/why-its-so-hard-walk-away-video-game",
+  "label": "Psychology Journalism",
+  "takeaway": "Hard to stop because of flow plus the Ovsiankina effect (interrupted tasks pull us back). Design use: natural stopping points are a fairness feature, not an engagement loss.",
+  "topic": "psychology"
+ },
+ {
+  "n": 172,
+  "citation": "PlayLoop (2026) \"Why Score-Chasing Arcade Games Stay Replayable\"",
+  "url": "https://primeloop.io/articles/playloop/why-score-chasing-arcade-games-stay-replayable.html",
+  "label": "Industry",
+  "takeaway": "Score chasing keeps games replayable by making progress legible every run. Design use: show the player exactly how this run compared to their best.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 173,
+  "citation": "Kang / PocketGamer.biz (2016) \"How King Uses Magic and Data to Find the Fun in Candy Crush\"",
+  "url": "https://www.pocketgamer.biz/king-on-finding-the-fun-in-candy-crush/",
+  "label": "Industry",
+  "takeaway": "King's level design process: data-driven tuning of difficulty and delight moments in match-3. Design use: difficulty curves should be tuned from real play data.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 174,
+  "citation": "James, Bonsall, Hoppitt, Tunbridge, Geddes, Milton & Holmes (2015) \"Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms\" Psychological Science",
+  "url": "https://www.psychologicalscience.org/journals/psychological-science/0956797615583071/",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "The original Tetris study: visuospatial gameplay after trauma-film exposure reduced intrusive memories via reconsolidation interference. Design use: demanding visuospatial play genuinely occupies working memory.",
+  "topic": "neuroscience"
+ },
+ {
+  "n": 175,
+  "citation": "Breslin \"Interactive Storytelling: Meaningful Player Choice\"",
+  "url": "https://breslinstudios.com/breslin%20-%20meaningful%20choice.pdf",
+  "label": "Craft Essay",
+  "takeaway": "What makes a choice meaningful: visible consequences, real trade-offs, no obviously-correct option. Design use: upgrade picks should be trade-offs, not obvious best answers.",
+  "topic": "gameplay"
+ },
+ {
+  "n": 176,
+  "citation": "OneSignal \"Optimizing Notification Timing\" (Insight Data Science guest post)",
+  "url": "https://onesignal.com/blog/optimizing-notification-timing/",
+  "label": "Industry / Data Science",
+  "takeaway": "Modeling send-time for push notifications measurably changes engagement. Design use: when a game nudges matters as much as what it says - and restraint is a design decision.",
+  "topic": "gameplay"
  }
 ]
