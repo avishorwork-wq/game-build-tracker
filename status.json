@@ -1,11 +1,11 @@
 {
-  "project": "Research-driven game project",
-  "updated": "2026-11-13T02:12:00+02:00",
-  "stage": "Phase 1: Research (100+ articles)",
-  "current": "Reading and logging research on addiction psychology, behavioral neuroscience, game design, sound design, color design, visual effects and engaging gameplay. Every article below has a link and a takeaway.",
-  "sources_reviewed": 101,
-  "sources_target": 100,
-  "note": "No game design or build yet. The design will be derived from this research once it is complete.",
-  "eta": "Full widened research (incl. sound, color, effects) completing overnight",
-  "links": {"game": "", "research": ""}
+ "project": "Research-driven game project",
+ "updated": "2026-11-13T02:18:00+02:00",
+ "stage": "Phase 1: Research (widened: sound, color, effects, addictive gameplay)",
+ "current": "135 articles read and logged with links and takeaways, covering addiction psychology, behavioral neuroscience, game design, sound design, color design, visual effects/game feel, and addictive gameplay mechanics. Every entry below is clickable.",
+ "sources_reviewed": 135,
+ "sources_target": 100,
+ "note": "No game design or build yet. The design doc comes next, derived from these 135 sources. Coverage now includes sound design (7 sources), color design (7), VFX/game feel (8), and addictive gameplay mechanics (13+).",
+ "eta": "Design doc next; no build commitments until the research is reviewed",
+ "links": {"game": "", "research": ""}
 }
