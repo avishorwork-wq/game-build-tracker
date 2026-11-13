@@ -5,95 +5,128 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Game Research Tracker</title>
 <style>
-  :root { --bg:#0b0f1a; --card:#131a2b; --edge:#24314f; --txt:#e8eefc; --dim:#8fa1c4; --acc:#39d0ff; --ok:#3ddc84; --warn:#ffb020; --ind:#c89b5a; }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: radial-gradient(1200px 600px at 70% -10%, #16223d 0%, var(--bg) 55%); color: var(--txt); min-height:100vh; }
-  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 16px 80px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  h1 .neon { color: var(--acc); text-shadow: 0 0 18px rgba(57,208,255,.5); }
-  .sub { color: var(--dim); margin-bottom: 18px; line-height: 1.45; }
-  .card { background: var(--card); border: 1px solid var(--edge); border-radius: 14px; padding: 16px 18px; margin-bottom: 16px; }
-  .stage { font-size: 1.1rem; font-weight: 700; color: var(--acc); }
-  .current { margin-top: 8px; line-height: 1.5; }
-  .meta { color: var(--dim); font-size: .85rem; margin-top: 10px; }
-  .bar { height: 10px; background:#0d1424; border-radius: 6px; overflow: hidden; margin-top: 8px; }
-  .bar > div { height: 100%; background: linear-gradient(90deg, var(--acc), #7c5cff); transition: width .4s; }
-  .count { font-weight: 700; }
-  .filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom: 12px; }
-  .filters button { background:#0d1424; color:var(--txt); border:1px solid var(--edge); border-radius:999px; padding:6px 13px; font-size:.83rem; cursor:pointer; }
-  .filters button.active { border-color: var(--acc); color: var(--acc); }
-  .art { padding: 12px 14px; border-radius: 10px; background:#0d1424; margin-bottom: 8px; line-height: 1.45; }
-  .art .num { color: var(--dim); font-size:.8rem; margin-right: 6px; }
-  .art a { color: var(--acc); text-decoration: none; }
-  .art a:hover { text-decoration: underline; }
-  .badge { display:inline-block; font-size:.68rem; font-weight:700; padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle; white-space: nowrap; }
-  .b-sci { background: rgba(61,220,132,.15); color: var(--ok); }
-  .b-rev { background: rgba(57,208,255,.14); color: var(--acc); }
-  .b-ind { background: rgba(200,155,90,.16); color: var(--ind); }
-  .b-jou { background: rgba(143,161,196,.15); color: var(--dim); }
-  .art .take { display:block; margin-top: 5px; color: #c6d2ea; font-size: .92rem; }
-  .legend { color: var(--dim); font-size: .8rem; margin-top: 6px; line-height: 1.6; }
-  h2 { font-size: 1.05rem; margin: 20px 0 10px; }
+:root { --bg:#0b0f1a; --card:#131a2b; --edge:#24314f; --txt:#e8eefc; --dim:#8fa1c4; --acc:#39d0ff; --ok:#3ddc84; --warn:#ffb020; --ind:#c89b5a; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: radial-gradient(1200px 600px at 70% -10%, #16223d 0%, var(--bg) 55%); color: var(--txt); min-height:100vh; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 28px 16px 80px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h1 .neon { color: var(--acc); text-shadow: 0 0 18px rgba(57,208,255,.5); }
+.sub { color: var(--dim); margin-bottom: 18px; line-height: 1.45; }
+.card { background: var(--card); border: 1px solid var(--edge); border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; }
+.stat { display:flex; flex-wrap:wrap; gap:14px; color:var(--dim); font-size:.92rem; }
+.stat b { color: var(--txt); }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:.72rem; border:1px solid var(--edge); color:var(--dim); }
+.pill.ok { color: var(--ok); border-color: rgba(61,220,132,.4); }
+.tabs { display:flex; gap:8px; margin:18px 0 14px; }
+.tab { flex:1; text-align:center; padding:10px; border-radius:10px; border:1px solid var(--edge); background:var(--card); color:var(--dim); cursor:pointer; font-size:.95rem; }
+.tab.active { color:var(--txt); border-color:var(--acc); box-shadow:0 0 14px rgba(57,208,255,.25); }
+.controls { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+.controls input, .controls select { background:#0d1322; color:var(--txt); border:1px solid var(--edge); border-radius:8px; padding:8px 10px; font-size:.9rem; }
+.controls input { flex:1; min-width:140px; }
+.chip { padding:5px 10px; border-radius:999px; border:1px solid var(--edge); background:#0d1322; color:var(--dim); cursor:pointer; font-size:.8rem; }
+.chip.active { color:var(--acc); border-color:var(--acc); }
+.art { padding:10px 12px; border-bottom:1px solid var(--edge); }
+.art:last-child { border-bottom:none; }
+.art .n { color:var(--dim); font-size:.78rem; margin-right:6px; }
+.art a { color:var(--acc); text-decoration:none; }
+.art a:hover { text-decoration:underline; }
+.art .lbl { font-size:.72rem; color:var(--warn); margin-left:6px; }
+.art .lbl.est, .art .lbl.peer, .art .lbl.sys, .art .lbl.meta, .art .lbl.scop, .art .lbl.exp { color:var(--ok); }
+.art .tk { color:var(--dim); font-size:.85rem; margin-top:3px; line-height:1.4; }
+.art .tp { font-size:.72rem; color:var(--ind); margin-left:6px; }
+.fnd { padding:14px 16px; }
+.fnd .stmt { font-size:1rem; line-height:1.45; margin-bottom:6px; }
+.fnd .meta { font-size:.78rem; color:var(--dim); margin-bottom:8px; }
+.fnd .meta .lab { color:var(--warn); }
+.fnd .srcs a { display:inline-block; margin:0 8px 4px 0; font-size:.8rem; color:var(--acc); text-decoration:none; }
+.fnd .srcs a:hover { text-decoration:underline; }
+.count { color:var(--dim); font-size:.85rem; margin:0 0 10px; }
+footer { color:var(--dim); font-size:.8rem; margin-top:20px; text-align:center; }
+a { color:var(--acc); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1><span class="neon">Game Research</span> Tracker</h1>
-  <div class="sub">Every engaging-game research article read for this project, with a link and a takeaway. The game gets designed from this base once research is complete.</div>
-  <div class="card">
-    <div class="stage" id="stage">Loading...</div>
-    <div class="current" id="current"></div>
-    <div class="bar"><div id="barfill"></div></div>
-    <div class="meta"><span class="count" id="srccount"></span> &middot; <span id="eta"></span> &middot; Updated: <span id="upd"></span></div>
-    <div class="meta" id="note"></div>
+<h1><span class="neon">Game Research</span> Tracker</h1>
+<div class="sub" id="subtitle">Live status of the research-first game project. Updated as work happens.</div>
+<div class="card">
+  <div class="stat" id="statusline">Loading...</div>
+  <div class="stat" style="margin-top:8px" id="statusnote"></div>
+</div>
+<div class="tabs">
+  <div class="tab active" id="tab-articles" onclick="showTab('articles')">Articles (<span id="artcount">0</span>)</div>
+  <div class="tab" id="tab-learned" onclick="showTab('learned')">What I learned (<span id="fndcount">0</span>)</div>
+</div>
+<div id="view-articles">
+  <div class="controls">
+    <input id="q" placeholder="Search articles..." oninput="renderArts()">
+    <select id="topic" onchange="renderArts()">
+      <option value="">All topics</option>
+      <option value="psychology">Psychology</option>
+      <option value="neuroscience">Neuroscience</option>
+      <option value="sound">Sound design</option>
+      <option value="color">Color design</option>
+      <option value="effects">Effects / game feel</option>
+      <option value="gameplay">Gameplay</option>
+      <option value="ethics">Ethics</option>
+    </select>
+    <select id="lab" onchange="renderArts()">
+      <option value="">All evidence types</option>
+      <option value="peer">Peer-reviewed / established</option>
+      <option value="review">Reviews & meta-analyses</option>
+      <option value="industry">Industry</option>
+      <option value="journalism">Journalism / other</option>
+    </select>
   </div>
-  <h2>Article library <span id="artcount" class="meta"></span></h2>
-  <div class="filters" id="filters">
-    <button data-f="all" class="active">All</button>
-    <button data-f="sci">Peer-reviewed / established</button>
-    <button data-f="rev">Reviews &amp; academic</button>
-    <button data-f="ind">Industry</button>
-    <button data-f="jou">Journalism &amp; other</button>
+  <div class="count" id="artshown"></div>
+  <div class="card" style="padding:0" id="artlist"></div>
+</div>
+<div id="view-learned" style="display:none">
+  <div class="controls">
+    <input id="fq" placeholder="Search findings..." oninput="renderFnds()">
   </div>
-  <div class="legend">Labels: <b style="color:var(--ok)">green</b> = peer-reviewed/established science &middot; <b style="color:var(--acc)">blue</b> = reviews, academic &amp; official docs &middot; <b style="color:var(--ind)">gold</b> = industry analysis/data &middot; <b style="color:var(--dim)">grey</b> = journalism, commentary, tertiary.</div>
-  <div id="list"></div>
+  <div class="controls" id="fchips"></div>
+  <div class="count" id="fndshown"></div>
+  <div id="fndlist"></div>
+</div>
+<footer>Built by Instinct for Avi. Every source was fetched and read; labels mark established science vs industry observation.</footer>
 </div>
 <script>
-const cls = l => /peer|established|field|experiment|workshop|extended|theory/i.test(l) ? 'b-sci'
-  : /review|academic|official|instrument|measure|legal|expert|survey/i.test(l) ? 'b-rev'
-  : /industry|preprint/i.test(l) ? 'b-ind' : 'b-jou';
-const grp = l => ({'b-sci':'sci','b-rev':'rev','b-ind':'ind','b-jou':'jou'})[cls(l)];
-Promise.all([
-  fetch('status.json?ts='+Date.now()).then(r=>r.json()),
-  fetch('articles.json?ts='+Date.now()).then(r=>r.json())
-]).then(([s, arts]) => {
-  document.getElementById('stage').textContent = s.stage;
-  document.getElementById('current').textContent = s.current;
-  document.getElementById('srccount').textContent = 'Articles read: ' + arts.length;
-  document.getElementById('eta').textContent = s.eta;
-  document.getElementById('note').textContent = s.note;
-  document.getElementById('upd').textContent = new Date(s.updated).toLocaleString();
-  document.getElementById('barfill').style.width = Math.min(100, 100 * arts.length / s.sources_target) + '%';
-  document.getElementById('artcount').textContent = '(' + arts.length + ')';
-  const list = document.getElementById('list');
-  arts.forEach(a => {
-    const d = document.createElement('div');
-    d.className = 'art'; d.dataset.g = grp(a.label);
-    d.innerHTML = '<span class="num">#' + a.n + '</span><a href="' + a.url + '" target="_blank" rel="noopener">' +
-      a.citation.replace(/</g,'&lt;') + '</a><span class="badge ' + cls(a.label) + '">' + a.label + '</span>' +
-      '<span class="take">' + a.takeaway.replace(/</g,'&lt;') + '</span>';
-    list.appendChild(d);
-  });
-  document.getElementById('filters').addEventListener('click', e => {
-    if (e.target.tagName !== 'BUTTON') return;
-    document.querySelectorAll('#filters button').forEach(b => b.classList.remove('active'));
-    e.target.classList.add('active');
-    const f = e.target.dataset.f;
-    document.querySelectorAll('.art').forEach(el => {
-      el.style.display = (f === 'all' || el.dataset.g === f) ? '' : 'none';
-    });
-  });
-}).catch(e => { document.getElementById('stage').textContent = 'Status unavailable'; });
+let ARTS=[], FNDS=[], fTopic='';
+const labClass=l=>{const s=l.toLowerCase(); if(/peer|experiment|established|consensus|replication/.test(s))return 'est'; if(/review|meta|scop|systematic|theory/.test(s))return 'sys'; return '';};
+const labGroup=l=>{const s=l.toLowerCase(); if(/experiment|study|peer|consensus|field|quantitative|ml|theory|delphi|replication/.test(s))return 'peer'; if(/review|meta|scop|systematic/.test(s))return 'review'; if(/industry|guideline|accessibility|craft|tutorial|technical/.test(s))return 'industry'; return 'journalism';};
+async function boot(){
+  const [st,ar,fd]=await Promise.all([fetch('status.json').then(r=>r.json()),fetch('articles.json').then(r=>r.json()),fetch('findings.json').then(r=>r.json())]);
+  ARTS=ar; FNDS=fd;
+  document.getElementById('subtitle').textContent=st.current||st.project;
+  document.getElementById('statusline').innerHTML='<span class="pill ok">'+st.stage+'</span> <span>Articles read: <b>'+st.sources_reviewed+'</b> / target '+st.sources_target+'</span> <span>Updated: <b>'+new Date(st.updated).toLocaleString()+'</b></span>';
+  document.getElementById('statusnote').innerHTML='<span>'+(st.note||'')+'</span> <span style="opacity:.8">'+(st.eta||'')+'</span>';
+  document.getElementById('artcount').textContent=ARTS.length;
+  document.getElementById('fndcount').textContent=FNDS.length;
+  const chips=['','psychology','neuroscience','sound','color','effects','gameplay','ethics'];
+  document.getElementById('fchips').innerHTML=chips.map(c=>'<span class="chip'+(c===''?' active':'')+'" data-t="'+c+'" onclick="setTopic(this)">'+(c||'All topics')+'</span>').join('');
+  renderArts(); renderFnds();
+}
+function setTopic(el){ fTopic=el.dataset.t; document.querySelectorAll('#fchips .chip').forEach(c=>c.classList.toggle('active',c===el)); renderFnds(); }
+function showTab(t){
+  document.getElementById('view-articles').style.display=t==='articles'?'':'none';
+  document.getElementById('view-learned').style.display=t==='learned'?'':'none';
+  document.getElementById('tab-articles').classList.toggle('active',t==='articles');
+  document.getElementById('tab-learned').classList.toggle('active',t==='learned');
+}
+function renderArts(){
+  const q=(document.getElementById('q').value||'').toLowerCase(), tp=document.getElementById('topic').value, lb=document.getElementById('lab').value;
+  const list=ARTS.filter(a=>(!q||(a.citation+' '+a.takeaway).toLowerCase().includes(q))&&(!tp||a.topic===tp)&&(!lb||labGroup(a.label)===lb));
+  document.getElementById('artshown').textContent='Showing '+list.length+' of '+ARTS.length;
+  document.getElementById('artlist').innerHTML=list.map(a=>'<div class="art"><span class="n">#'+a.n+'</span><a href="'+a.url+'" target="_blank" rel="noopener">'+a.citation+'</a><span class="lbl '+labClass(a.label)+'">'+a.label+'</span><span class="tp">'+(a.topic||'')+'</span><div class="tk">'+a.takeaway+'</div></div>').join('');
+}
+function renderFnds(){
+  const q=(document.getElementById('fq').value||'').toLowerCase();
+  const list=FNDS.filter(f=>(!q||f.finding.toLowerCase().includes(q))&&(!fTopic||f.topic===fTopic));
+  document.getElementById('fndshown').textContent='Showing '+list.length+' of '+FNDS.length+' findings';
+  document.getElementById('fndlist').innerHTML=list.map(f=>'<div class="card fnd"><div class="stmt">'+f.finding+'</div><div class="meta"><span class="pill">'+f.topic+'</span> <span class="lab">'+f.label+'</span></div><div class="srcs">'+f.sources.map(n=>{const a=ARTS.find(x=>x.n===n);return a?'<a href="'+a.url+'" target="_blank" rel="noopener" title="'+a.citation.replace(/"/g,'')+'">#'+n+' '+a.citation.split('(')[0].trim().slice(0,40)+'</a>':'';}).join('')+'</div></div>').join('');
+}
+boot().catch(e=>{document.getElementById('statusline').textContent='Load error: '+e;});
 </script>
 </body>
 </html>
