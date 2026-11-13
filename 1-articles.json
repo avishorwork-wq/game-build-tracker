@@ -1,0 +1,709 @@
+[
+ {
+  "n": 1,
+  "citation": "James, O'Malley & Tunney (2016) \"Why are Some Games More Addictive than Others\" Frontiers in Psychology",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4735408/",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "Partial reinforcement extinction effect (PREE) + trial spacing: low reinforcement rate + longer inter-trial intervals increase perseverative gambling; illusion of control implicated. Design use: unpredictable reward timing sustains engagement; also a responsible-design flag."
+ },
+ {
+  "n": 2,
+  "citation": "Drummond & Sauer (2018) \"Video game loot boxes are psychologically akin to gambling\" Nature Human Behaviour 2:530-532",
+  "url": "https://www.nature.com/articles/s41562-018-0360-1",
+  "label": "Peer-reviewed",
+  "takeaway": "comment/analysis. Loot boxes share defining psychological features with gambling. Design use: avoid paid random rewards (ethics); free earned randomness differs."
+ },
+ {
+  "n": 3,
+  "citation": "Clark, Lawrence, Astley-Jones & Gray (2009) \"Gambling near-misses enhance motivation to gamble and recruit win-related brain circuitry\" Neuron 61:481-490",
+  "url": "https://europepmc.org/articles/PMC2658737",
+  "label": "Peer-reviewed",
+  "takeaway": "fMRI study. Near-misses recruit win-related circuitry and increase motivation to continue despite being losses."
+ },
+ {
+  "n": 4,
+  "citation": "Pisklak et al. (2019) \"The Near-Miss Effect in Slot Machines: A Review and Experimental Analysis Over Half a Century Later\" J Gambling Studies",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7214505/",
+  "label": "Review",
+  "takeaway": "+ experiments. CONTESTED: their pigeon and human resistance-to-extinction experiments FAILED to support the classic near-miss effect. Track contradiction with #3: near-miss motivational effect is not robustly established."
+ },
+ {
+  "n": 5,
+  "citation": "(2022) \"Skill-challenge balance, game expertise, flow and the urge to keep playing complex mobile games\" (Candy Crush players)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943660/",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "(n=60). Flow highest at personal level standing; easy games least flow; hard games produced comparable flow to balanced despite frustration. Design use: adaptive difficulty around player level."
+ },
+ {
+  "n": 6,
+  "citation": "Ryan, Rigby & Przybylski (2006) \"The Motivational Pull of Video Games: A Self-Determination Theory Approach\" Motivation & Emotion 30:344-360",
+  "url": "https://selfdeterminationtheory.org/wp-content/uploads/2020/10/2006_RyanRigbyPrzybylski_MandE.pdf",
+  "label": "Established",
+  "takeaway": "(4 studies). In-game autonomy + competence predict enjoyment, preference, sustained play and well-being gains; SDT needs are the core motivational engine. Design pillars: meaningful choice (autonomy), visible skill growth (competence), social connection (relatedness)."
+ },
+ {
+  "n": 7,
+  "citation": "Daw & Tobler (2014) \"Understanding dopamine and reinforcement learning: The dopamine reward prediction error hypothesis\" in The Cognitive Neurosciences / PNAS perspective",
+  "url": "https://www.pnas.org/doi/full/10.1073/pnas.1014269108",
+  "label": "Established Review",
+  "takeaway": "Phasic dopamine encodes reward prediction error; unexpected rewards drive learning and engagement, fully predicted rewards do not. Design use: variability and surprise in rewards, escalating anticipation."
+ },
+ {
+  "n": 8,
+  "citation": "(2019) \"What can be learned about gambling from a learning perspective? A narrative review\" Addiction Research & Theory",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/19012276.2019.1616320",
+  "label": "Review",
+  "takeaway": "of lab experiments on learning processes in gambling: schedules of reinforcement, resistance to extinction, timing effects."
+ },
+ {
+  "n": 9,
+  "citation": "Michailidis, Balaguer-Ballester & He (2018) \"Flow and Immersion in Video Games: The Aftermath of a Conceptual Challenge\" Frontiers in Psychology",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full",
+  "label": "Review",
+  "takeaway": "Flow and immersion are not cleanly separable in current studies; use flow constructs pragmatically."
+ },
+ {
+  "n": 10,
+  "citation": "(2021) \"Peripheral-physiological and neural correlates of the flow experience while playing video games: a comprehensive review\" PeerJ/PMC",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7751419/",
+  "label": "Review",
+  "takeaway": "Physiological evidence for flow is heterogeneous but converges on arousal, attention control and reward involvement; keeping players in flow is a central design goal. ## C/D. Design frameworks, game feel, roguelikes"
+ },
+ {
+  "n": 11,
+  "citation": "Hunicke, LeBlanc & Zubek (2004) \"MDA: A Formal Approach to Game Design and Game Research\" AAAI workshop",
+  "url": "https://users.cs.northwestern.edu/~rob/publications/MDA.pdf",
+  "label": "Established Framework",
+  "takeaway": "(non-empirical). Mechanics -> Dynamics -> Aesthetics; designer sees mechanics, player experiences aesthetics. Design use: structure the design doc by intended aesthetic -> dynamics -> mechanics."
+ },
+ {
+  "n": 12,
+  "citation": "Pichlmair & Johansen (2022) \"Designing Game Feel: A Survey\" (200+ sources analyzed)",
+  "url": "https://researcher.itu.dk/p/en/research-outputs/designing-game-feel-a-survey",
+  "label": "Academic Survey",
+  "takeaway": "Game feel = intentional design of affective impact of moment-to-moment interaction; 3 domains: physicality, amplification, support."
+ },
+ {
+  "n": 13,
+  "citation": "Pichlmair (2022) \"Game Feel\" Encyclopedia of Ludic Terms",
+  "url": "https://eolt.org/articles/game-feel/",
+  "label": "Academic Reference",
+  "takeaway": "Game feel via tuning, juicing, streamlining; \"at the heart of game design.\""
+ },
+ {
+  "n": 14,
+  "citation": "King (2015) \"The Key Design Elements of Roguelikes\" Envato Tuts+",
+  "url": "https://code.tutsplus.com/the-key-design-elements-of-roguelikes--cms-23510a",
+  "label": "Industry",
+  "takeaway": "/practitioner taxonomy: procedural generation, permadeath, turn/grid, hack-and-slash, emergence."
+ },
+ {
+  "n": 15,
+  "citation": "Doull (2009) \"The Game Design Lessons Of Permadeath\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/game-platforms/analysis-the-game-design-lessons-of-permadeath",
+  "label": "Industry Analysis",
+  "takeaway": "permadeath compels mastery and weight; pain mitigated by short runs + meta-progression."
+ },
+ {
+  "n": 16,
+  "citation": "The Conversation (2023) \"Vampire Survivors: how developers used gambling psychology to create a Bafta-winning game\"",
+  "url": "https://theconversation.com/vampire-survivors-how-developers-used-gambling-psychology-to-create-a-bafta-winning-game-203613",
+  "label": "Academic Commentary",
+  "takeaway": "VS uses slot-like audiovisual reward feedback (chests, cascades) without monetization."
+ },
+ {
+  "n": 17,
+  "citation": "Platinum Paragon (2023) \"The Psychology of Vampire Survivors\"",
+  "url": "https://platinumparagon.info/psychology-of-vampire-survivors/",
+  "label": "Industry",
+  "takeaway": "/psych commentary citing Deci & Ryan (2000), Festinger (1957), Deterding et al. (2022 predictive processing): competence, autonomy, uncertainty resolution."
+ },
+ {
+  "n": 18,
+  "citation": "Guardini, De Simone & Actis-Grosso (2019) \"Faster is Better: The Speed of Player Character Growth affects Enjoyment and Perceived Competence\" GHItaly",
+  "url": "https://ceur-ws.org/Vol-2480/GHItaly19_paper_06.pdf",
+  "label": "Peer-reviewed Workshop Paper",
+  "takeaway": "Faster character growth -> higher enjoyment + perceived competence (SDT-framed). Design use: dense early progression, tapering later."
+ },
+ {
+  "n": 19,
+  "citation": "Doran (2018) \"Good RNG: The Binding of Isaac and Why It's so Good\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/business/good-rng-the-binding-of-isaac-and-why-it-s-so-good",
+  "label": "Industry Analysis",
+  "takeaway": "RNG-driven variety solves replayability; run-to-run novelty."
+ },
+ {
+  "n": 20,
+  "citation": "SUPERJUMP (2022) \"Vampire Survivors: A Study of an Indie Phenomenon\"",
+  "url": "https://www.superjumpmagazine.com/vampire-survivors-a-study-of-an-indie-phenomenon/",
+  "label": "Industry",
+  "takeaway": "VS's low price, minimal input, dopamine-dense loops drove breakout. ## E/F. Onboarding, UX, dark patterns, monetization ethics"
+ },
+ {
+  "n": 21,
+  "citation": "Petrovskaya & Zendle (2021) \"Predatory Monetisation? A Categorisation of Unfair, Misleading and Aggressive Monetisation Techniques\" J of Business Ethics",
+  "url": "https://link.springer.com/article/10.1007/s10551-021-04970-6",
+  "label": "Peer-reviewed",
+  "takeaway": "(n=1104 players): 35 techniques in 8 domains perceived as unfair/misleading/aggressive (e.g. pay-to-skip grinding, monetised QoL, in-game currency obfuscation). The ethics boundary catalog for monetization."
+ },
+ {
+  "n": 22,
+  "citation": "Chen, Wang & Xiao \"The Prevalence and Co-occurrences of Dark Patterns in Popular Mobile Free-to-Play Games\" DiGRA",
+  "url": "https://dl.digra.org/index.php/dl/article/download/3101/3085/3144",
+  "label": "Peer-reviewed Extended Abstract",
+  "takeaway": "4 dark-pattern types (psychological manipulation, intermediate currencies, pay for expendable updates, play by appointment) present in >80% of top mobile F2P games."
+ },
+ {
+  "n": 23,
+  "citation": "Joseph (2021) \"Battle pass capitalism\" Journal of Consumer Culture (Apex Legends walkthrough)",
+  "url": "https://journals.sagepub.com/doi/full/10.1177/1469540521993930",
+  "label": "Peer-reviewed",
+  "takeaway": "critical analysis of battle-pass commodity design."
+ },
+ {
+  "n": 24,
+  "citation": "Goodstein (2021) \"When the Cat's Away: Techlash, Loot Boxes, and Regulating Dark Patterns\" U Colorado Law Review",
+  "url": "https://lawreview.colorado.edu/print/when-the-cats-away-techlash-loot-boxes-and-regulating-dark-patterns-in-the-video-game-industrys-monetization-strategies/",
+  "label": "Legal Review",
+  "takeaway": "Key distinction quoted: designs that make play \"compelled\" rather than \"fun\"."
+ },
+ {
+  "n": 25,
+  "citation": "(2020) \"Demystifying the First-Time Experience of Mobile Games: The Presence of a Tutorial Has a Positive Impact on Non-Expert Players' Flow\" Multimodal Technologies & Interaction",
+  "url": "https://www.mdpi.com/2414-4088/4/3/41",
+  "label": "Peer-reviewed",
+  "takeaway": "lab (n=40): tutorials raise flow for non-experts, no effect for experts; many players abandon within 24h. Design use: optional-skippable contextual tutorial."
+ },
+ {
+  "n": 26,
+  "citation": "Cheung, Zimmermann & Nagappan (2014) \"The First Hour Experience: How the Initial Play can Engage (or Lose) New Players\" CHI PLAY (Microsoft Research)",
+  "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/First20Hour20-20CHIPlay20201420-20preprint2.pdf",
+  "label": "Peer-reviewed",
+  "takeaway": "first session is decisive; early quit kills later fun."
+ },
+ {
+  "n": 27,
+  "citation": "Barnett, Harvey & Gatzidis \"First Time User Experiences in Mobile Games: An Evaluation of Usability\" Bournemouth U",
+  "url": "https://eprints.bournemouth.ac.uk/32321/1/ftue240418.pdf",
+  "label": "Peer-reviewed",
+  "takeaway": "usability eval: games fail for \"wrong reasons\" frustrations; usability more critical in games than other software."
+ },
+ {
+  "n": 28,
+  "citation": "Thomsen, Petersen, Drachen & Mirza-Babaei \"Identifying Onboarding Heuristics for Free-to-Play Mobile Games\" ICEC",
+  "url": "https://andersdrachen.com/wp-content/uploads/2014/07/heuristics_icec.pdf",
+  "label": "Peer-reviewed",
+  "takeaway": "mixed-methods: onboarding heuristics for F2P."
+ },
+ {
+  "n": 29,
+  "citation": "Hodent \"The Gamer's Brain: How Neuroscience and UX Can Impact Video Game Design\" (book excerpt; former Epic Games UX director)",
+  "url": "http://thegamersbrain.com/book-excerpt",
+  "label": "Expert Practitioner",
+  "takeaway": "cognitive load, perception, memory applied to game UX. ## G. Market & commercial"
+ },
+ {
+  "n": 30,
+  "citation": "Gamigion (Jan 2026) \"Top 10 Grossing Genres In 2025\" (AppMagic data)",
+  "url": "https://www.gamigion.com/top-10-grossing-genres-in-2025/",
+  "label": "Industry Data",
+  "takeaway": "Strategy overtook RPG as #1 genre (+21% YoY revenue)."
+ },
+ {
+  "n": 31,
+  "citation": "mobilegamer.biz (Jan 2026) data digest (Newzoo)",
+  "url": "https://mobilegamer.biz/data-digest-mobile-beats-pc-and-console-again-2025s-biggest-games-and-publishers-ncsofts-big-buy-more/",
+  "label": "Industry Data",
+  "takeaway": "mobile games $108bn in 2025, 55% of total games market; Last War: Survival top grosser (~$2bn+); Newzoo forecasts ~$122bn by 2028."
+ },
+ {
+  "n": 32,
+  "citation": "PocketGamer.biz (Jul 2025) H1 2025 genre analysis (AppMagic)",
+  "url": "https://www.pocketgamer.biz/strategy-games-surge-as-rpg-revenue-tumbles-h1-2025s-top-genres-revealed/",
+  "label": "Industry Data",
+  "takeaway": "mobile strategy $10.6bn H1 2025."
+ },
+ {
+  "n": 33,
+  "citation": "Katkoff/Barnes \"Battle Pass Design: How to Price, Balance and Monetize\" Deconstructor of Fun",
+  "url": "https://www.deconstructoroffun.com/blog/2022/6/4/battle-passes-analysis",
+  "label": "Industry Expert",
+  "takeaway": "analysis of battle-pass economics across genres."
+ },
+ {
+  "n": 34,
+  "citation": "LendEDU \"The Finances of Fortnite\"",
+  "url": "https://lendedu.com/blog/finances-of-fortnite/",
+  "label": "Industry",
+  "takeaway": "survey (self-reported spending; low rigor). ## B. Motivation, player types, progress psychology"
+ },
+ {
+  "n": 35,
+  "citation": "Bartle (1996) \"Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs\"",
+  "url": "https://www.majormud.com/pwsm.html",
+  "label": "Established Taxonomy",
+  "takeaway": "(qualitative classic): achievers, explorers, socializers, killers from action/interaction x world/player orientation."
+ },
+ {
+  "n": 36,
+  "citation": "Nunes & Drèze (2006) \"The Endowed Progress Effect: How Artificial Advancement Increases Effort\" J of Consumer Research",
+  "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/PSC.pdf",
+  "label": "Established Experiments",
+  "takeaway": "artificial head-start increases effort and completion toward goals. Design use: meta-progress tracks start partially filled; visible \"almost there\" states."
+ },
+ {
+  "n": 37,
+  "citation": "Madigan (2013) \"The Zeigarnik Effect and Quest Logs\" Psychology of Games",
+  "url": "https://www.psychologyofgames.com/2013/03/the-zeigarnik-effect-and-quest-logs/",
+  "label": "Psych Commentary",
+  "takeaway": "on Zeigarnik (1927): unfinished tasks occupy memory; quest/objective lists keep players returning."
+ },
+ {
+  "n": 38,
+  "citation": "McAloon (2020) \"How Supergiant weaves narrative rewards into Hades' cycle of perpetual death\" GameDeveloper (Kasavin interview)",
+  "url": "https://www.gamedeveloper.com/design/how-supergiant-weaves-narrative-rewards-into-i-hades-i-cycle-of-perpetual-death",
+  "label": "Industry",
+  "takeaway": "story advances on death; failure reframed as progress; sequencing designed for unknowable run order."
+ },
+ {
+  "n": 39,
+  "citation": "Deterding, Andersen, Kiverstein & Miller (2022) \"Mastering uncertainty: A predictive processing account of enjoying uncertain success in video game play\" Frontiers in Psychology",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.924953/full",
+  "label": "Peer-reviewed Theory",
+  "takeaway": "fun = pleasurable reduction of uncertainty; explains both soulslike and idle appeal; optimal challenge = uncertain but masterable."
+ },
+ {
+  "n": 40,
+  "citation": "Mullally (2026) \"Wasting Time: Human Idleness and Durational Mechanics in Idle Games\" Game Studies",
+  "url": "https://gamestudies.org/2601/articles/mullally",
+  "label": "Peer-reviewed",
+  "takeaway": "analysis of idle-game durational appeal."
+ },
+ {
+  "n": 41,
+  "citation": "Iyadurai et al. (2018) \"Preventing intrusive memories after trauma via a brief intervention involving Tetris\" Molecular Psychiatry",
+  "url": "https://www.nature.com/articles/mp201723",
+  "label": "Peer-reviewed",
+  "takeaway": "RCT: visuospatial gameplay engages working memory strongly enough to disrupt memory consolidation - evidence of deep cognitive capture (\"Tetris effect\" is measurable)."
+ },
+ {
+  "n": 42,
+  "citation": "Holmes et al. (2009) \"Can Playing the Computer Game Tetris Reduce the Build-Up of Flashbacks for Trauma?\" PLoS ONE",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004153",
+  "label": "Peer-reviewed",
+  "takeaway": "cognitive-vaccine rationale; visuospatial load limits intrusive imagery."
+ },
+ {
+  "n": 43,
+  "citation": "(2025) \"Sound and music in video games: A systematic review of player engagement and a meta-analysis\" (14 studies, 6 meta-analyzed)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13712732/",
+  "label": "Review + Meta-Analysis",
+  "takeaway": "game audio reliably increases positively-valenced experience. Design use: layered adaptive audio is worth the effort."
+ },
+ {
+  "n": 44,
+  "citation": "Greenwald (2014) \"How Facebook and Candy Crush Got You Hooked\" WIRED (on Nir Eyal's Hook model)",
+  "url": "https://www.wired.com/2014/12/how-to-build-habit-forming-products/",
+  "label": "Industry",
+  "takeaway": "Hook loop = trigger -> action -> variable reward -> investment. Design use: return triggers + player investment (unlocks, stats) - used ethically."
+ },
+ {
+  "n": 45,
+  "citation": "Stafford & Vaci (2022) \"Maximizing the Potential of Digital Games for Understanding Skill Acquisition\" Current Directions in Psychological Science",
+  "url": "https://journals.sagepub.com/doi/full/10.1177/09637214211057841",
+  "label": "Peer-reviewed",
+  "takeaway": "games are profound skill-acquisition domains; learning curves separate learning rate/asymptote. Design use: visible skill growth is core to long-term engagement."
+ },
+ {
+  "n": 46,
+  "citation": "Valve (2023) \"Steam Visibility: How games get surfaced to players\" (official Steamworks)",
+  "url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/steamworks_docs/english/SteamVisibility102023.pdf",
+  "label": "Official Platform Doc",
+  "takeaway": "Steam recommendations driven by player response signals; no paid placement."
+ },
+ {
+  "n": 47,
+  "citation": "Madigan (2010) \"Endowed Progress Effect and Game Quests\" Psychology of Games",
+  "url": "https://www.psychologyofgames.com/2010/11/endowed-progress-effect-and-game-quests/",
+  "label": "Psych Commentary",
+  "takeaway": "applying #36 to game quests."
+ },
+ {
+  "n": 48,
+  "citation": "Tyack, Wyeth & Johnson (2016) \"The appeal of MOBA games: What makes people start, stay, and stop\" CHI PLAY",
+  "url": "https://eprints.qut.edu.au/105319/1/p313-tyack.pdf",
+  "label": "Peer-reviewed",
+  "takeaway": "social connection and mastery keep players; toxicity drives them away."
+ },
+ {
+  "n": 49,
+  "citation": "(2023) \"Applying Aspects of the Expert Performance Approach to... Skill Acquisition in Video Games\" Topics in Cognitive Science (Space Fortress analysis)",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/tops.12230",
+  "label": "Peer-reviewed",
+  "takeaway": "expert performance methods applied to game skill."
+ },
+ {
+  "n": 50,
+  "citation": "Immutable (2026) \"How the Steam Algorithm Works: Discovery and Visibility Explained\"",
+  "url": "https://www.immutable.com/guides/steam-discovery-algorithm",
+  "label": "Industry",
+  "takeaway": "explainer: multiple surfaces, customer response feeds all. ## G (cont). Market & commercial; H. Ethics & compulsion"
+ },
+ {
+  "n": 51,
+  "citation": "mobilegamer.biz (2022) \"Two months in, Survivor.io passes $75m from 37m downloads\" (Appmagic)",
+  "url": "https://mobilegamer.biz/two-months-in-survivor-io-passes-75m-from-37m-downloads/",
+  "label": "Industry Data",
+  "takeaway": "survivors-like mobile hit economics; $2.09 lifetime revenue per download."
+ },
+ {
+  "n": 52,
+  "citation": "Carless (2024) \"How Balatro hit 1 million sales in less than a month\" GameDiscoverCo",
+  "url": "https://newsletter.gamediscover.co/p/how-balatro-hit-1-million-sales-in",
+  "label": "Industry Data",
+  "takeaway": "/analysis: solo-dev poker roguelike; discovery flywheel."
+ },
+ {
+  "n": 53,
+  "citation": "GameAnalytics (2026 report) \"Mobile retention benchmarks 2026\"",
+  "url": "https://investgame.net/wp-content/uploads/2026/01/2026-01-20-Mobile_retention_benchmarks_2026.pdf",
+  "label": "Industry Data",
+  "takeaway": "median D1 ~22%, top-10% ~40%; median D7 ~4%, top ~12%; value must be clear in first 5-15 minutes; \"onboarding as demonstration of pleasure\"."
+ },
+ {
+  "n": 54,
+  "citation": "WHO (2020) \"Addictive behaviours: Gaming disorder\" (ICD-11 Q&A)",
+  "url": "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder",
+  "label": "Official Health Authority",
+  "takeaway": "gaming disorder = impaired control, increasing priority, continuation despite harm. The ethical line: design for enjoyment, not compulsion."
+ },
+ {
+  "n": 55,
+  "citation": "Mandryka (2016) \"Compulsion loop is withdrawal-driven\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/design/compulsion-loop-is-withdrawal-driven",
+  "label": "Industry Expert",
+  "takeaway": "compulsion-loop mechanics and their limits; vexation follows satisfaction."
+ },
+ {
+  "n": 56,
+  "citation": "King, Billieux & Delfabbro (2025) \"Screening, assessment and management of gaming disorder: recent evidence and future directions\" (review)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079325/",
+  "label": "Peer-reviewed Review",
+  "takeaway": "by leading GD researchers."
+ },
+ {
+  "n": 57,
+  "citation": "Hon (2010) \"One More Turn\" mssv",
+  "url": "https://mssv.net/2010/08/16/one-more-turn/",
+  "label": "Industry",
+  "takeaway": "/thought-leader: anticipation chains (Civ); always one pending goal."
+ },
+ {
+  "n": 58,
+  "citation": "Ahmad (2025) \"How Survivor.io continues to pull in $5 million a month three years later\" Gamesforum",
+  "url": "https://www.globalgamesforum.com/news-media/how-survivor.io-continues-to-pull-in-5-million-a-month-three-years-later",
+  "label": "Industry Data",
+  "takeaway": "live-ops iteration sustains long-tail revenue."
+ },
+ {
+  "n": 59,
+  "citation": "Cook (2025) \"How Playstack bet on Balatro and won big\" PocketGamer.biz",
+  "url": "https://www.pocketgamer.biz/how-playstack-bet-on-balatro-and-won-big/",
+  "label": "Industry",
+  "takeaway": "publisher strategy behind Balatro."
+ },
+ {
+  "n": 60,
+  "citation": "Kunkel, Hayduk & Lock (2023) \"Push it real good: effects of push notifications promoting gameful affordances on consumer engagement\" (Bournemouth eprints)",
+  "url": "https://eprints.bournemouth.ac.uk/38820/1/Kunkel%2C%20Hayduk%2C%20%26%20Lock%20%282023%29%20Push%20it%20real%20good.pdf",
+  "label": "Peer-reviewed",
+  "takeaway": "well-designed notifications raise engagement. ## B (cont). Motivation science"
+ },
+ {
+  "n": 61,
+  "citation": "Deci, Koestner & Ryan (1999) \"A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation\" Psychological Bulletin 125:627-668",
+  "url": "https://selfdeterminationtheory.org/wp-content/uploads/2014/04/1999_DeciKoestnerRyan_Meta.pdf",
+  "label": "Established Meta-Analysis",
+  "takeaway": "(128 studies): tangible expected (engagement/completion/performance-contingent) rewards undermine intrinsic motivation; unexpected and verbal rewards do not. Central monetization/reward-design constraint."
+ },
+ {
+  "n": 62,
+  "citation": "IJsselsteijn, de Kort & Poels (2013) \"The Game Experience Questionnaire\" TU Eindhoven",
+  "url": "https://pure.tue.nl/ws/files/21666907/Game_Experience_Questionnaire_English.pdf",
+  "label": "Established Measure",
+  "takeaway": "ment instrument (competence, immersion, flow, tension, challenge, affect)."
+ },
+ {
+  "n": 63,
+  "citation": "Koster (2004/2012) \"An atomic theory of fun game design\" raphkoster.com",
+  "url": "https://www.raphkoster.com/2012/01/24/an-atomic-theory-of-fun-game-design/",
+  "label": "Industry Classic",
+  "takeaway": "(game grammar)."
+ },
+ {
+  "n": 64,
+  "citation": "Koster (2004) \"A Theory of Fun - What Games Aren't\" (book excerpt) GameDeveloper",
+  "url": "https://www.gamedeveloper.com/design/book-excerpt-a-theory-of-game-design---what-games-aren-t",
+  "label": "Industry Classic",
+  "takeaway": "fun = learning/mastering patterns; boredom when pattern solved."
+ },
+ {
+  "n": 65,
+  "citation": "Astle (2026) \"Crafting Candy Crush's difficulty: Blockers, level design, AI and the 'complexity staircase'\" PocketGamer.biz",
+  "url": "https://www.pocketgamer.biz/crafting-candy-crushs-difficulty-blockers-level-design-ai-and-the-complexity-staircase/",
+  "label": "Industry Data/Practice",
+  "takeaway": "from King's PM."
+ },
+ {
+  "n": 66,
+  "citation": "(2023) \"How leaderboard positions shape our motivation: competence satisfaction and frustration\" Internet Research 33(7)",
+  "url": "https://www.emerald.com/intr/article/33/7/1/178330/",
+  "label": "Peer-reviewed",
+  "takeaway": "leaderboard effects mediated by competence satisfaction; low ranks can demotivate. Design use: personal-bests + cohort leaderboards over global ones."
+ },
+ {
+  "n": 67,
+  "citation": "Grosso (2016) \"The Science & Craft of Designing Daily Rewards - and Why FTP Games Need Them\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/business/the-science-craft-of-designing-daily-rewards-and-why-ftp-games-need-them",
+  "label": "Industry Expert",
+  "takeaway": "daily rewards via behavioral econ (fixed/variable interval; cites King, Delfabbro & Griffiths 2010 taxonomy of video game structural characteristics)."
+ },
+ {
+  "n": 68,
+  "citation": "Long (2024) \"How King defines a 'good' Candy Crush Saga level - and constantly prunes the bad ones\" (GDC 2024, King data science)",
+  "url": "https://mobilegamer.biz/how-king-defines-a-good-candy-crush-saga-level-and-why-it-constantly-prunes-the-bad-ones/",
+  "label": "Industry Data/Practice",
+  "takeaway": "data-driven level tuning at scale. ## B (cont). Curiosity, novelty, achievements"
+ },
+ {
+  "n": 69,
+  "citation": "Loewenstein (1994) \"The Psychology of Curiosity: A Review and Reinterpretation\" Psychological Bulletin 116:75-98",
+  "url": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/PsychofCuriosity.pdf",
+  "label": "Established Review",
+  "takeaway": "curiosity as an information-gap; attention on what you almost know. Design use: tease unlockables, \"???\" slots, visible next-goal."
+ },
+ {
+  "n": 70,
+  "citation": "Kidd & Hayden (2015) \"The Psychology and Neuroscience of Curiosity\" Neuron/PMC",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4635443/",
+  "label": "Review",
+  "takeaway": "curiosity drives learning and decision-making; neural underpinnings emerging."
+ },
+ {
+  "n": 71,
+  "citation": "Madigan (2016) \"Why Do Achievements, Trophies, and Badges Work?\" Psychology of Games",
+  "url": "https://www.psychologyofgames.com/2016/07/why-do-achievements-trophies-and-badges-work/",
+  "label": "Psych Commentary",
+  "takeaway": "achievements as goals, feedback, and identity."
+ },
+ {
+  "n": 72,
+  "citation": "Sailer, Hense, Mayr & Mandl (2017) \"How gamification motivates: effects of specific game design elements on psychological need satisfaction\" Computers in Human Behavior 69:371-380",
+  "url": "https://www.sciencedirect.com/science/article/pii/S074756321630855X",
+  "label": "Peer-reviewed Experiment",
+  "takeaway": "badges/leaderboards/performance graphs satisfy competence/relatedness differently."
+ },
+ {
+  "n": 73,
+  "citation": "(2021) \"Midbrain circuits of novelty processing\" Neuroscience/PMC",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8091486/",
+  "label": "Review",
+  "takeaway": "novelty triggers orienting and exploration, habituates with familiarity. Design use: steady stream of new content/enemies. ## D (cont). Survivors-likes, meta-progression, difficulty"
+ },
+ {
+  "n": 74,
+  "citation": "Wright (2025) \"How Vampire Survivors built its own unlikely genre, the 'survivor-like'\" Epic Games Store",
+  "url": "https://store.epicgames.com/fil/news/vampire-survivors-built-genre-autoshooter-bullet-heaven",
+  "label": "Industry",
+  "takeaway": "/platform editorial: genre history and spread."
+ },
+ {
+  "n": 75,
+  "citation": "Hayao Design Codex \"Meta-Progression - Persistent Unlocks Between Runs\"",
+  "url": "https://hayao.dev/docs/codex/system-meta-progression",
+  "label": "Industry Design",
+  "takeaway": "reference: the permanent ledger that survives death; \"I lost, but I'm further than before\"."
+ },
+ {
+  "n": 76,
+  "citation": "teemo.dev Game Design Lab \"Vampire Survivors systems: High-Level Overview\"",
+  "url": "https://teemo.dev/game-design/vampire-survivors/systems/high-level-game-overview/",
+  "label": "Industry Design",
+  "takeaway": "analysis: controlled power fantasy under relentless assault; level-up draft as the run's change mechanism."
+ },
+ {
+  "n": 77,
+  "citation": "Cohen (2023) \"Difficulty Curves - It's Not That Hard\" Supersonic",
+  "url": "https://supersonic.com/learn/blog/difficulty-curves/",
+  "label": "Industry",
+  "takeaway": "difficulty curve as churn prevention; balance skill vs challenge."
+ },
+ {
+  "n": 78,
+  "citation": "Xue, Wu, Kolen, Aghdaie & Zaman (2017, EA) \"Dynamic Difficulty Adjustment for Maximized Engagement in Digital Games\" CHI PLAY",
+  "url": "https://dl.acm.org/doi/pdf/10.1145/3041021.3054170",
+  "label": "Peer-reviewed",
+  "takeaway": "(EA research): DDA increases engagement; player-model-driven difficulty. ## H (cont). Ethics: LDW, FOMO; difficulty appeal; choice; scoring; UA"
+ },
+ {
+  "n": 79,
+  "citation": "Dixon, Harrigan, Sandhu, Collins & Fugelsang (2010) \"Losses disguised as wins in modern multi-line video slot machines\" Addiction 105:1819-1824",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1360-0443.2010.03050.x",
+  "label": "Established",
+  "takeaway": "celebratory sounds/visuals on net losses miscategorize outcomes. ETHICS RULE for the game: feedback must match outcome valence - celebrate only real wins."
+ },
+ {
+  "n": 80,
+  "citation": "Fan (2026) \"Why Do We Suffer for Fun? Ordeal Pleasure in Souls-like Games\" DiGRA",
+  "url": "https://dl.digra.org/index.php/dl/article/download/2831/2815/2874",
+  "label": "Peer-reviewed Theory",
+  "takeaway": "severe-but-fair failure transforms into satisfaction (\"ordeal pleasure\")."
+ },
+ {
+  "n": 81,
+  "citation": "Bycer (2021) \"How video games abuse the fear of missing out\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/design/how-video-games-abuse-the-fear-of-missing-out",
+  "label": "Industry Critique",
+  "takeaway": "limited-time FOMO harms players and brands; avoid in design."
+ },
+ {
+  "n": 82,
+  "citation": "Stokalski (2017) \"Meaning and choice: designing decisions that feel intimately difficult\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/design/meaning-and-choice-or-how-to-design-decisions-that-feel-intimately-difficult",
+  "label": "Industry Design",
+  "takeaway": "emotionally meaningful decisions."
+ },
+ {
+  "n": 83,
+  "citation": "Johnson, S. (2013) \"When choice is bad: finding the sweet spot for player agency\" Game Developer magazine",
+  "url": "https://www.gamedeveloper.com/design/when-choice-is-bad-finding-the-sweet-spot-for-player-agency",
+  "label": "Industry Classic",
+  "takeaway": "small elegant choices beat overwhelming agency (supports 3-option drafts)."
+ },
+ {
+  "n": 84,
+  "citation": "HYTOPIA (2024) \"What Makes a Great Scoring System? Lessons from the Arcade\" itch.io blog",
+  "url": "https://itch.io/blog/810141/what-makes-a-great-scoring-system-lessons-from-the-arcade",
+  "label": "Industry",
+  "takeaway": "score-chase DNA, legibility of score gains."
+ },
+ {
+  "n": 85,
+  "citation": "Carless (2023) \"Winning at game discovery on TikTok (& Instagram Reels!)\" GameDiscoverCo",
+  "url": "https://newsletter.gamediscover.co/p/winning-at-game-discovery-on-tiktok",
+  "label": "Industry Data",
+  "takeaway": "short-video discovery playbook."
+ },
+ {
+  "n": 86,
+  "citation": "Carless (2022) \"This game used TikTok to get 120m views, 60k Steam wishlists\" GameDeveloper",
+  "url": "https://www.gamedeveloper.com/game-platforms/this-game-used-tiktok-to-get-120m-views-60k-steam-wishlists-",
+  "label": "Industry Data",
+  "takeaway": "case (Mortal Rite)."
+ },
+ {
+  "n": 87,
+  "citation": "Pavlus (2016) \"Why We Love the Games That Enrage Us Most\" Scientific American",
+  "url": "https://www.scientificamerican.com/article/why-we-love-the-games-that-enrage-us-most/",
+  "label": "Science Journalism",
+  "takeaway": "\"hard fun\" and intrinsic motivation."
+ },
+ {
+  "n": 88,
+  "citation": "(2026) \"Struggle as Flow: Challenge, Design, and Experience in Soulslike Games\" arXiv preprint",
+  "url": "https://arxiv.org/html/2604.15318v1",
+  "label": "Preprint / hypothesis",
+  "takeaway": "\"resilient flow\" - absorption maintained through frustration when failure is legible and fair. ## I. Well-being, casual design, final case studies"
+ },
+ {
+  "n": 89,
+  "citation": "Hamari (2017) \"Do badges increase user activity? A field experiment on the effects of gamification\" Computers in Human Behavior 71:469-478",
+  "url": "https://combat.academy/wp-content/uploads/2019/01/Do_badges_increase_user_activity_Hamari_2017.pdf",
+  "label": "Peer-reviewed Field Experiment",
+  "takeaway": "badges increased user activity."
+ },
+ {
+  "n": 90,
+  "citation": "Grinspoon (2020) \"Dopamine fasting: Misunderstanding science spawns a maladaptive fad\" Harvard Health",
+  "url": "https://www.harvardhealth.org/blog/dopamine-fasting-misunderstanding-science-spawns-a-maladaptive-fad-2020022618917",
+  "label": "Expert Medical",
+  "takeaway": "dopamine is not depleted like a toxin; honesty check on \"dopamine detox\" claims."
+ },
+ {
+  "n": 91,
+  "citation": "teemo.dev Game Design Lab \"Monetization and Post-Launch Expansions: Vampire Survivors systems\"",
+  "url": "https://teemo.dev/game-design/vampire-survivors/systems/monetization-and-post-launch-expansions/",
+  "label": "Industry Design",
+  "takeaway": "analysis: premium base game + low-price expansions; no real-money transactions in the run economy."
+ },
+ {
+  "n": 92,
+  "citation": "The Guardian (2023) \"From Big Macs to Baftas: the incredible story behind Vampire Survivors\"",
+  "url": "https://www.theguardian.com/games/2023/aug/04/baftas-video-game-vampire-survivors-luca-galante",
+  "label": "Journalism",
+  "takeaway": "solo dev, \"it just felt fun\", BAFTA Best Game 2023."
+ },
+ {
+  "n": 93,
+  "citation": "(2023) \"Recovery from work by playing video games\" Applied Psychology",
+  "url": "https://iaap-journals.onlinelibrary.wiley.com/doi/full/10.1111/apps.12519",
+  "label": "Peer-reviewed",
+  "takeaway": "evening gaming aids recovery via psychological detachment and mastery experiences."
+ },
+ {
+  "n": 94,
+  "citation": "Juul (2009) \"A Casual Revolution: Reinventing Video Games and Their Players\" (MIT Press)",
+  "url": "https://www.jesperjuul.net/ludologist/2009/08/17/my-upcoming-book-a-casual-revolution/",
+  "label": "Academic Book",
+  "takeaway": "casual design values - juiciness, interruptibility, usability, lenient punishment."
+ },
+ {
+  "n": 95,
+  "citation": "Wikipedia \"Vampire Survivors\"",
+  "url": "https://en.wikipedia.org/wiki/Vampire_Survivors",
+  "label": "Tertiary",
+  "takeaway": "reference for release/sales facts (verified against journalism)."
+ },
+ {
+  "n": 96,
+  "citation": "Ryan, Rigby & Przybylski \"Player Experience of Needs Satisfaction (PENS)\"",
+  "url": "https://selfdeterminationtheory.org/player-experience-of-needs-satisfaction-pens/",
+  "label": "Established Instrument",
+  "takeaway": "autonomy/competence/relatedness/presence/intuitive controls measures."
+ },
+ {
+  "n": 97,
+  "citation": "(2023) \"Daily Quests or Daily Pests? The Benefits and Pitfalls of Engagement Rewards in Games\" PACM HCI",
+  "url": "https://dl.acm.org/doi/10.1145/3549489",
+  "label": "Peer-reviewed",
+  "takeaway": "engagement rewards can support or harm experience; skeptical players read them as dark patterns."
+ },
+ {
+  "n": 98,
+  "citation": "Pine, Fleming, McCallum & Sutcliffe (2020) \"The Effects of Casual Videogames on Anxiety, Depression, Stress, and Low Mood: A Systematic Review\" Games for Health J",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32053021/",
+  "label": "Systematic Review",
+  "takeaway": "casual games show promise for reducing depression/anxiety symptoms."
+ },
+ {
+  "n": 99,
+  "citation": "Reinecke et al. (2009) \"Games and Recovery: The Use of Video and Computer Games to Recuperate from Stress and Strain\" J of Media Psychology 21(3)",
+  "url": "https://econtent.hogrefe.com/doi/10.1027/1864-1105.21.3.126",
+  "label": "Peer-reviewed",
+  "takeaway": "(n=1614): games systematically used for recovery after stress."
+ },
+ {
+  "n": 100,
+  "citation": "Hayao Design Codex \"Hades\"",
+  "url": "https://hayao.dev/docs/codex/anchor-hades",
+  "label": "Industry Design",
+  "takeaway": "reference: death returns you home; home = story + permanent upgrades; \"failure is progress\"."
+ },
+ {
+  "n": 101,
+  "citation": "Phil (2026) \"Geometry Survivor: design notes on our take on the survivors genre\" Legitsauce",
+  "url": "https://legitsauce.com/blog/geometry-survivor-design-notes/",
+  "label": "Industry",
+  "takeaway": "VS lineage + Brotato drafting + neon minimal shapes for phone performance (direct precedent for this build)."
+ }
+]
