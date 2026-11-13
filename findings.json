@@ -1,0 +1,377 @@
+[
+ {
+  "topic": "psychology",
+  "finding": "Unpredictable variable rewards sustain play far longer than predictable ones",
+  "label": "Established (lab evidence)",
+  "sources": [
+   1,
+   7,
+   8,
+   44,
+   67,
+   123
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Near-misses feel like almost-wins and pull players onward - a mechanic borrowed from gambling",
+  "label": "Established",
+  "sources": [
+   3,
+   4,
+   124,
+   130,
+   134
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Flow - challenge matched to growing skill - is the core engagement state",
+  "label": "Established",
+  "sources": [
+   5,
+   9,
+   10,
+   25,
+   62,
+   88
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Autonomy, competence and relatedness (self-determination) predict sustained, healthy play",
+  "label": "Established",
+  "sources": [
+   6,
+   17,
+   18,
+   62,
+   66,
+   72
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Unfinished goals nag at players: visible incomplete quests pull people back (Zeigarnik effect)",
+  "label": "Established + applied",
+  "sources": [
+   37,
+   47,
+   62,
+   97,
+   155
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Curiosity is an information gap: show players something is missing and they will want to close it",
+  "label": "Established",
+  "sources": [
+   68,
+   69,
+   70,
+   145,
+   146
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Over-using extrinsic rewards can hollow out intrinsic motivation - reward the playing, not just the outcome",
+  "label": "Established (meta-analysis)",
+  "sources": [
+   17,
+   26,
+   61,
+   70,
+   82,
+   87
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Achievements and badges measurably lift activity as a cheap second progression layer",
+  "label": "Established (field experiment)",
+  "sources": [
+   68,
+   71,
+   72,
+   89,
+   133,
+   143
+  ]
+ },
+ {
+  "topic": "psychology",
+  "finding": "Harmonious passion (play fits life) vs obsessive passion (play controls life): design for the first",
+  "label": "Established",
+  "sources": [
+   128,
+   144
+  ]
+ },
+ {
+  "topic": "neuroscience",
+  "finding": "Dopamine tracks novelty and reward prediction, not just reward - a steady drip of new content sustains engagement",
+  "label": "Established",
+  "sources": [
+   7,
+   19,
+   20,
+   68,
+   73,
+   90
+  ]
+ },
+ {
+  "topic": "neuroscience",
+  "finding": "Absorbing visuospatial play measurably occupies the mind (Tetris intrusion studies) - deep engagement is real but bounded",
+  "label": "Established (replicated)",
+  "sources": [
+   41,
+   42,
+   154
+  ]
+ },
+ {
+  "topic": "sound",
+  "finding": "Sound is felt as part of the reward: win sounds raise arousal and can distort win perception",
+  "label": "Established (lab)",
+  "sources": [
+   4,
+   16,
+   69,
+   79,
+   110,
+   111
+  ]
+ },
+ {
+  "topic": "sound",
+  "finding": "Adaptive music that follows game tension significantly raises felt tension and immersion",
+  "label": "Established (experiment)",
+  "sources": [
+   43,
+   109,
+   137,
+   138
+  ]
+ },
+ {
+  "topic": "sound",
+  "finding": "Instant audio on every input makes controls feel responsive - sound marks registration before visuals can",
+  "label": "Established (experiment)",
+  "sources": [
+   20,
+   113,
+   136
+  ]
+ },
+ {
+  "topic": "sound",
+  "finding": "Character-specific sounds improve immersion, avatar identification and fun",
+  "label": "Established (experiment)",
+  "sources": [
+   112,
+   122
+  ]
+ },
+ {
+  "topic": "color",
+  "finding": "Color shifts emotion: red reads as high-arousal danger, yellow as positive - strongest on new players",
+  "label": "Established (experiment)",
+  "sources": [
+   1,
+   6,
+   7,
+   17,
+   21,
+   39
+  ]
+ },
+ {
+  "topic": "color",
+  "finding": "Color is an information channel first: team coding, threat colors, silhouettes (Valve) - readability beats decoration",
+  "label": "Industry + research",
+  "sources": [
+   46,
+   102,
+   106,
+   108,
+   120,
+   139
+  ]
+ },
+ {
+  "topic": "color",
+  "finding": "Saturation and brightness are the main mood dials; grading/LUTs tune mood cheaply",
+  "label": "Industry",
+  "sources": [
+   17,
+   94,
+   103,
+   105,
+   107,
+   109
+  ]
+ },
+ {
+  "topic": "color",
+  "finding": "Meet contrast and readability standards - clearer for low-vision players and for everyone",
+  "label": "Accessibility guideline",
+  "sources": [
+   108,
+   139,
+   140
+  ]
+ },
+ {
+  "topic": "effects",
+  "finding": "Juice - screen shake, hit-stop, particles, tweens - makes identical mechanics feel dramatically better",
+  "label": "Industry consensus",
+  "sources": [
+   10,
+   12,
+   13,
+   105,
+   117,
+   118
+  ]
+ },
+ {
+  "topic": "effects",
+  "finding": "Animation principles (anticipation, squash-and-stretch) keep actions readable and attacks fair",
+  "label": "Industry craft",
+  "sources": [
+   7,
+   57,
+   120,
+   121
+  ]
+ },
+ {
+  "topic": "effects",
+  "finding": "VFX should communicate state and guide attention, not just decorate",
+  "label": "Research + industry",
+  "sources": [
+   115,
+   116,
+   122
+  ]
+ },
+ {
+  "topic": "effects",
+  "finding": "Even simple 2D games measurably gain engagement from layered visual effects",
+  "label": "Established (experiment)",
+  "sources": [
+   122
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "The compulsion loop (action - reward - new goal) is the engine of one-more-go; keep it fair and completable",
+  "label": "Industry",
+  "sources": [
+   50,
+   54,
+   55,
+   131
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "Short runs plus a persistent high score drive endless replay",
+  "label": "Industry + arcade data",
+  "sources": [
+   19,
+   84,
+   152,
+   156
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "Difficulty walls frustrate: easier progression can raise engagement and spending",
+  "label": "Research brief",
+  "sources": [
+   5,
+   65,
+   73,
+   77,
+   78,
+   149
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "Mobile retention is brutal: median D1 about 22%, D7 about 4% - top performers roughly double it",
+  "label": "Industry benchmark data",
+  "sources": [
+   53
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "Leaderboards motivate via competence: personal-best and near-rank framing beats global bottom ranks",
+  "label": "Established (experiment)",
+  "sources": [
+   66,
+   72,
+   152
+  ]
+ },
+ {
+  "topic": "gameplay",
+  "finding": "Re-engagement (notifications, dailies) is a tuned system - Duolingo optimizes it with bandit algorithms",
+  "label": "Established (deployed ML)",
+  "sources": [
+   60,
+   67,
+   97,
+   154,
+   157
+  ]
+ },
+ {
+  "topic": "ethics",
+  "finding": "The exploitative line: features that remove stopping cues or manufacture obligation (endless pulls, FOMO, pay-to-skip)",
+  "label": "Established (reviews/taxonomies)",
+  "sources": [
+   14,
+   20,
+   22,
+   24,
+   67,
+   97
+  ]
+ },
+ {
+  "topic": "ethics",
+  "finding": "Engagement is not addiction: the clinical line for gaming disorder is functional impairment (ICD-11), and experts warn against pathologizing normal play",
+  "label": "Expert consensus",
+  "sources": [
+   54,
+   56,
+   125,
+   151
+  ]
+ },
+ {
+  "topic": "ethics",
+  "finding": "Limited-time FOMO content backfires - it exhausts players and punishes absence",
+  "label": "Industry observation",
+  "sources": [
+   78,
+   81,
+   158
+  ]
+ },
+ {
+  "topic": "ethics",
+  "finding": "Design games you'd thank for the time: gratification (earned satisfaction) over compensation (escape)",
+  "label": "Research + ethics",
+  "sources": [
+   127,
+   132
+  ]
+ }
+]
